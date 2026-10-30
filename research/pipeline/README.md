@@ -11,5 +11,5 @@ The pipeline is evidence-gated. A source or PYQ fingerprint alone never counts a
 7. **Compare with CAT.** State the shared benchmark skill and the structural differences. Assign an internal difficulty rationale; never convert it to a percentile prediction.
 8. **Admit only validated items.** An item counts toward the 25-question pilot only when all required fields are complete and status is `approved`.
 
-The current pipeline is documented, but no pilot items have passed it yet. Current auditable question content: one CAT fingerprint; zero original pilot questions.
+The current pipeline is documented, but no pilot items have passed it yet. Current auditable benchmark content: three CAT fingerprints spanning CAT 2025 Slots 1–3; zero original pilot questions.
 
