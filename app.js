@@ -104,9 +104,7 @@ const showAccount = () => {
   document.querySelector('#account-email-label').textContent = session?.user?.email || '';
 };
 
-const supabase = window.supabase?.createClient
-  ? window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY)
-  : null;
+let supabase = null;
 
 const fetchAllEvents = async () => {
   const rows = [];
@@ -213,7 +211,7 @@ const authMessage = (text, error = false) => {
   message.classList.toggle('error', error);
 };
 document.querySelector('#sign-in-button').onclick = async () => {
-  if (!supabase) return authMessage('Account service is unavailable. Local practice still works.', true);
+  if (!supabase) return authMessage('Account service is still loading. Please try again in a moment.', true);
   const email = document.querySelector('#account-email').value.trim();
   const password = document.querySelector('#account-password').value;
   if (!email || !password) return authMessage('Enter your email and password.', true);
@@ -222,7 +220,7 @@ document.querySelector('#sign-in-button').onclick = async () => {
   session = data.session; showAccount(); syncCloud();
 };
 document.querySelector('#sign-up-button').onclick = async () => {
-  if (!supabase) return authMessage('Account service is unavailable. Local practice still works.', true);
+  if (!supabase) return authMessage('Account service is still loading. Please try again in a moment.', true);
   const email = document.querySelector('#account-email').value.trim();
   const password = document.querySelector('#account-password').value;
   if (!email || !password) return authMessage('Enter your email and a password with at least 8 characters.', true);
@@ -239,19 +237,38 @@ document.querySelector('#sign-out-button').onclick = async () => {
   session = null; showAccount(); showSync('Saved on this device', 'Sign in to sync across devices');
 };
 
-recompute(); persist(); paint(); showAccount();
-if (!supabase) showSync('Saved on this device', 'Account service could not load');
-else {
-  supabase.auth.onAuthStateChange((_event, nextSession) => {
-    session = nextSession; showAccount();
-    if (session) setTimeout(() => syncCloud(), 0);
-    else showSync('Saved on this device', 'Sign in to sync across devices');
-  });
-  supabase.auth.getSession().then(({ data, error }) => {
-    if (error) { showSync('Saved on this device', 'Sign in to sync across devices'); return; }
+const initializeBackend = async () => {
+  showSync('Loading account service', 'Local practice is ready', 'sync-pending');
+  try {
+    if (!window.supabase?.createClient) {
+      await new Promise((resolve, reject) => {
+        const script = document.createElement('script');
+        script.src = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.118.0/dist/umd/supabase.min.js';
+        script.async = true;
+        script.onload = resolve;
+        script.onerror = () => reject(new Error('Supabase client could not be loaded'));
+        document.head.appendChild(script);
+      });
+    }
+    if (!window.supabase?.createClient) throw new Error('Supabase client did not initialize');
+    supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+    supabase.auth.onAuthStateChange((_event, nextSession) => {
+      session = nextSession; showAccount();
+      if (session) setTimeout(() => syncCloud(), 0);
+      else showSync('Saved on this device', 'Sign in to sync across devices');
+    });
+    const { data, error } = await supabase.auth.getSession();
+    if (error) throw error;
     session = data.session; showAccount();
-    if (session) syncCloud();
-  });
-}
+    if (session) await syncCloud();
+    else showSync('Saved on this device', 'Sign in to sync across devices');
+  } catch (error) {
+    console.error('Account service failed to load', error);
+    showSync('Saved on this device', 'Account service could not load', 'sync-error');
+  }
+};
+
+recompute(); persist(); paint(); showAccount();
+initializeBackend();
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(() => {});
 
