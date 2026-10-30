@@ -1,10 +1,11 @@
 # Deployment
 
-- Live URL: https://26d31cec.apex-cat-lab.pages.dev
-- Provider: Cloudflare Pages (`apex-cat-lab`)
-- Release: `26d31cec-d1fd-4b1c-bcee-267ef30ebce4` (production; Cloudflare deploy stage `success`)
-- Deployment method: direct Pages upload with a bundled `_worker.js` serving the app files.
-- Smoke check: HTTPS returned HTTP 200 and the expected page title. Browser verification confirmed dashboard rendering, quiz open, hint display, correct answer explanation, and saved progress after reload.
+- Live URL: https://f78e4c7a.apex-cat-lab.pages.dev
+- Provider: Cloudflare Pages project `apex-cat-lab`
+- Release: `f78e4c7a-9532-4aef-901d-2ca00a71dfb2` (stage `success`)
+- Method: direct Pages upload with a bundled `_worker.js` serving the app files.
+- The Supabase JavaScript client is served locally from `/vendor/`; the site does not require a third-party CDN for it.
+- Account sign-up/sign-in and practice event sync are implemented. Configure the Supabase Auth Site URL and redirect allow-list with `https://f78e4c7a.apex-cat-lab.pages.dev/` before email confirmation flow is used.
+- Pages uses direct upload and is not connected to GitHub CI/CD.
 
-This is an initial deployed release, not the full research platform from the specification. Authentication, Supabase persistence, cross-device sync and GitHub automation are not connected.
-
+The live site currently contains three original sample questions. It is an initial practice studio, not a fully researched CAT question bank. See [BUILD_STATUS.md](BUILD_STATUS.md) for outstanding work and evidence limits.
