@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "research_snapshot": "2026-10-31",
+  "paper": {
+    "exam": "CAT",
+    "year": 2025,
+    "slot": "multi",
+    "conducting_body": "IIM Kozhikode",
+    "official_advertisement": "https://www.iimk.ac.in/uploads/announcements/CAT%202025%20ENG%20Color_20250730042103.pdf",
+    "question_level_official_key_checked": false,
+    "scope_note": "Question samples span Slots 1, 2, and 3; each record carries its slot."
+  },
+  "records": [
+    {
+      "id": "PYQ-CAT25-S1-QA-DIGITMIN",
+      "section": "QA",
+      "section_question_number": 3,
+      "section_question_number_conflict": "Mockat labels this QA Q9/22; GradeScale labels it Q3 and CATKing labels it Q49 in the full paper. The latter is consistent with Q3 after VARC 24 + DILR 22. Official item numbering unverified.",
+      "source_question_number": 49,
+      "authenticity_grade": "C",
+      "source_urls": [
+        "https://www.gradscale.in/pyqs/cat/2025/1/view/",
+        "https://catking.in/file/media_library/10317/6a16ce69659a4.pdf",
+        "https://mockat.com/cat-previous-year-papers/in-a-3-digit-number-n-the-digits-are-non-zero-and-distinct-cat-2025-slot-1"
+      ],
+      "response_type": "TITA",
+      "task_family": [
+        "digit constraints",
+        "prime classification",
+        "minimisation",
+        "divisor count"
+      ],
+      "representation": [
+        "finite candidate set",
+        "place-value ordering",
+        "prime factorisation"
+      ],
+      "reasoning_operations": [
+        "filter candidates by predicates",
+        "deduce forced non-prime digits",
+        "lexicographic minimisation",
+        "divisor-count formula"
+      ],
+      "published_answer": "6",
+      "independent_answer": "6",
+      "independent_witness": "268 = 2^2 × 67, so τ(268)=(2+1)(1+1)=6; 268 is the smallest admissible arrangement using digits 2,6,8.",
+      "source_conflict": {
+        "source": "GradeScale explanation",
+        "issue": "It calls 628 the minimum candidate; 268 is smaller and satisfies all stated constraints.",
+        "answer_impact": "No: both 268 and 628 have six divisors, so the final numeric answer remains 6.",
+        "cross_check": "CATKing and Mockat reproduce the item; CATKing's solution correctly identifies 268."
+      },
+      "official_key_match": "unverified",
+      "audit_status": "fingerprint_and_answer_independently_checked; official provenance pending",
+      "notes": "Do not copy the original item into generated content. Use only the structural fingerprint for benchmark comparison.",
+      "year": 2025,
+      "slot": 1
+    },
+    {
+      "id": "PYQ-CAT25-S2-QA-DIVMOD3",
+      "section": "QA",
+      "section_question_number": 14,
+      "authenticity_grade": "C",
+      "source_urls": [
+        "https://www.gradscale.in/pyqs/cat/2025/2/view/",
+        "https://www.careerlauncher.com/blogs/wp-content/uploads/2025/11/CAT-Actual-Paper-2025-Slot-2-Q-Sol.pdf"
+      ],
+      "response_type": "MCQ",
+      "task_family": [
+        "divisor enumeration",
+        "modular arithmetic",
+        "prime factor exponents"
+      ],
+      "representation": [
+        "prime factorization",
+        "residue-class filter"
+      ],
+      "reasoning_operations": [
+        "eliminate divisors divisible by 3",
+        "reduce remaining prime factors modulo 3",
+        "count exponent tuples satisfying a parity condition"
+      ],
+      "published_answer": "42",
+      "independent_answer": "42",
+      "independent_witness": "For a divisor 2^a 3^b 5^c 7^d, b must be 0. Modulo 3, 2 and 5 are -1 while 7 is 1, so a+c must be even. For a=0..6 and c=0..3 there are 14 such pairs; d=0..2 gives 3 choices, hence 42.",
+      "official_key_match": "unverified",
+      "audit_status": "fingerprint_and_answer_independently_checked; official provenance pending",
+      "notes": "Locator follows the GradeScale section sequence. Career Launcher reproduction is a cross-check, not an official response sheet. Structural benchmark only; no original prompt copied.",
+      "year": 2025,
+      "slot": 2
+    },
+    {
+      "id": "PYQ-CAT25-S3-QA-DIGITRANGE",
+      "section": "QA",
+      "section_question_number": null,
+      "section_question_number_conflict": "GradeScale labels the item QA Q6; Scorebuddy labels the matching constraints QA Q20. Official locator unverified.",
+      "authenticity_grade": "C",
+      "source_urls": [
+        "https://www.gradscale.in/pyqs/cat/2025/3/view/",
+        "https://scorebuddy.in/cat/pyq/2025/slot-3"
+      ],
+      "response_type": "TITA",
+      "task_family": [
+        "place-value digit constraints",
+        "linear systems",
+        "finite feasible set extrema"
+      ],
+      "representation": [
+        "four decimal digits",
+        "overlapping three-digit sums",
+        "adjacent digit difference"
+      ],
+      "reasoning_operations": [
+        "subtract equations to link end digits",
+        "bound feasible end digits",
+        "enumerate remaining cases",
+        "compare extrema"
+      ],
+      "published_answer": "811",
+      "independent_answer": "811",
+      "independent_witness": "For digits A,B,C,D: A+B+C=15, B+C+D=16, C=D+6. Thus D=A+1 and bounds force D∈{2,3}. Solutions are 1682 and 2493, so max−min=811.",
+      "official_key_match": "unverified",
+      "audit_status": "fingerprint_and_answer_independently_checked; official provenance pending",
+      "notes": "The locator conflict is retained rather than normalised without the official response sheet. Structural benchmark only; no original prompt copied.",
+      "year": 2025,
+      "slot": 3
+    }
+  ]
+}
