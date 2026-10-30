@@ -16,7 +16,7 @@ Serve this directory over HTTP (for example, `python -m http.server 8000`) and o
 
 ## Research status
 
-Question-level PYQ audit count is currently zero. The source ledger and preliminary archive census document access limits and archive disagreements. The three sample questions are original examples, not CAT PYQs.
+The source ledger contains 15 CAT and official-source records. Three sampled CAT 2025 QA items have question-level structural fingerprints and independently derived answers across Slots 1–3; all are secondary-source grade C, not official-key verified. The three app questions remain original demonstration examples, not CAT PYQs.
 
 See [BUILD_STATUS.md](BUILD_STATUS.md), [SOURCE_LEDGER.md](SOURCE_LEDGER.md), [PYQ_CENSUS.md](PYQ_CENSUS.md), and [DEPLOYMENT.md](DEPLOYMENT.md) for the current implementation and evidence boundaries.
 
@@ -27,5 +27,6 @@ See [BUILD_STATUS.md](BUILD_STATUS.md), [SOURCE_LEDGER.md](SOURCE_LEDGER.md), [P
 - [Research-to-question validation pipeline](research/pipeline/README.md).
 
 The pilot count remains zero until each original question includes its research sources, CAT benchmark comparison, independent answer verification and adversarial checks.
+
 
 
