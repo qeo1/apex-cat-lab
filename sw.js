@@ -1,0 +1,2 @@
+const CACHE='apex-v1';const FILES=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./icon.svg'];self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES))));self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;e.respondWith(caches.match(e.request).then(c=>c||fetch(e.request).then(r=>{if(r.ok&&new URL(e.request.url).origin===location.origin){const copy=r.clone();caches.open(CACHE).then(cache=>cache.put(e.request,copy))}return r}))) });
+
