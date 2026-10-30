@@ -243,7 +243,7 @@ const initializeBackend = async () => {
     if (!window.supabase?.createClient) {
       await new Promise((resolve, reject) => {
         const script = document.createElement('script');
-        script.src = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.118.0/dist/umd/supabase.min.js';
+        script.src = './vendor/supabase-js-2.118.0.min.js';
         script.async = true;
         script.onload = resolve;
         script.onerror = () => reject(new Error('Supabase client could not be loaded'));
