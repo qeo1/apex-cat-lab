@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://apex-cat-lab.local/schemas/question-record.schema.json",
+  "title": "APEX CAT LAB original research question",
+  "type": "object",
+  "required": ["id", "section", "prompt", "response_type", "choices", "answer", "explanation", "hint_ladder", "research", "benchmark", "engineering", "validation", "status"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^APX-[A-Z]+-[0-9]{3}$"},
+    "section": {"enum": ["VARC", "DILR", "QA"]},
+    "prompt": {"type": "string", "minLength": 20},
+    "stimulus": {"type": "string"},
+    "response_type": {"enum": ["MCQ", "TITA"]},
+    "choices": {"type": "array", "items": {"type": "string"}},
+    "answer": {},
+    "explanation": {"type": "string", "minLength": 20},
+    "hint_ladder": {"type": "array", "minItems": 2, "items": {"type": "string", "minLength": 5}},
+    "research": {"type": "object", "required": ["source_ids", "insight"], "properties": {"source_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}}, "insight": {"type": "string", "minLength": 20}}},
+    "benchmark": {"type": "object", "required": ["pyq_ids", "shared_skill", "structural_difference"], "properties": {"pyq_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}}, "shared_skill": {"type": "string", "minLength": 10}, "structural_difference": {"type": "string", "minLength": 20}}},
+    "engineering": {"type": "object", "required": ["structure_family", "novelty_rationale", "difficulty_rationale"], "properties": {"structure_family": {"type": "string"}, "novelty_rationale": {"type": "string", "minLength": 30}, "difficulty_rationale": {"type": "string", "minLength": 20}}},
+    "validation": {"type": "object", "required": ["independent_solution", "uniqueness_check", "edge_case_check", "reviewer"], "properties": {"independent_solution": {"type": "string", "minLength": 30}, "uniqueness_check": {"type": "string", "minLength": 20}, "edge_case_check": {"type": "string", "minLength": 20}, "reviewer": {"type": "string"}}},
+    "status": {"enum": ["draft", "research_ready", "validation_pending", "approved"]}
+  },
+  "additionalProperties": false
+}
+
