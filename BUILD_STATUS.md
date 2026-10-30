@@ -7,9 +7,8 @@ Updated: 2026-10-31 (counts are repository inventory, not targets)
 | Asset | Implemented count | State |
 |---|---:|---|
 | Original practice questions in app | 3 | Starter examples only; none are PYQs |
-| CAT PYQ source records | 10 | Index, primary and secondary cross-check sources |
+| CAT PYQ source records in ledger | 10 | Index and primary/secondary cross-check sources; audit underway |
 | CAT PYQs with question-level audited fingerprints | 1 | CAT 2025 Slot 1 QA: grade C, answer independently verified; official-key match pending |
-| Global research sources | 10 | First scope across discrete math, probability, OR, philosophy, economics, statistics and analytical writing |
 | Research-derived pilot questions | 0 / 25 | Pilot not started |
 | Complete mock examinations | 0 / 100 | Not started |
 | Concept Academy lessons | 0 complete | Dashboard placeholder only |
@@ -18,28 +17,30 @@ Updated: 2026-10-31 (counts are repository inventory, not targets)
 
 ## Existing product and infrastructure
 
-- Existing Cloudflare Pages project: `apex-cat-lab`; latest recorded successful deployment: `f78e4c7a-9532-4aef-901d-2ca00a71dfb2`, `https://f78e4c7a.apex-cat-lab.pages.dev`.
-- Existing private GitHub repository: [qeo1/apex-cat-lab](https://github.com/qeo1/apex-cat-lab). Local `main` history is not connected to a Git remote; contents are kept in sync through GitHub's API.
-- Existing Supabase project: `adlgchkwmwvoxeaohlhz`; `practice_events` has owner-scoped RLS. Auth/sync implementation exists; email redirect allow-list and real-account cross-device sync remain unverified.
+- Existing Cloudflare Pages project: `apex-cat-lab`; continue using it. Previously successful deployment: `f78e4c7a-9532-4aef-901d-2ca00a71dfb2`, `https://f78e4c7a.apex-cat-lab.pages.dev`.
+- Existing private GitHub repository: [qeo1/apex-cat-lab](https://github.com/qeo1/apex-cat-lab). Local `main` history is not connected to a Git remote; repository contents were uploaded through GitHub's API.
+- Existing Supabase project: `adlgchkwmwvoxeaohlhz`; `practice_events` has owner-scoped RLS. Client-side auth and sync are implemented, but email redirect allow-list and account-to-account sync are not yet verified.
+- App contains three original demonstration questions, local progress, a PWA shell, and sign-in/sign-up controls.
 
-## Research work recorded
+## Research capability and current work
 
-- Live web research is available and used for source discovery and question-level audit.
-- The first question-level record is [CAT 2025 Slot 1 QA 9](research/pyq/cat-2025-slot-1-audit.md). It identifies a faulty minimum-number explanation in one public reproduction while confirming the final divisor-count answer independently. Authenticity grade is C because official response-sheet provenance has not been matched.
-- Sources and access limits are in [SOURCE_LEDGER.md](SOURCE_LEDGER.md); global field map is in [research/global/field-map.md](research/global/field-map.md).
-- Research-to-question evidence gates and machine-readable schema/validator are in [research/pipeline](research/pipeline/).
-- No pilot item has passed validation. The three app examples are excluded from the pilot count.
+- Live web research is available in this environment and is being used for source discovery and question-level CAT research. Source capture must include URL, date, evidence grade, audited question identifier and explicit uncertainties.
+- Latest available paper family located: CAT 2025, three slots. The first question-level record is [CAT 2025 Slot 1 QA 9](research/pyq/cat-2025-slot-1-audit.md). It records a faulty explanation in one reproduction while confirming the final answer; official-key match remains unverified.
+- No 25-question pilot is admitted until each original item has a research rationale, CAT benchmark fingerprint, independent solution check, and adversarial uniqueness check.
 
 ## Next milestones
 
-1. Continue question-level audit of the latest accessible CAT 2025 slot papers; preserve source conflicts and avoid republishing paper text.
-2. Expand machine-readable fingerprints and source records.
-3. Conduct broader global source review and map specific insights to original structures.
-4. Publish and independently validate 25 research-derived originals before any scale-up.
-5. Implement question bank, Concept Academy and mocks as validated content permits.
-6. Verify auth/sync and connect GitHub-to-Cloudflare deployment if the existing account supports it.
+1. Audit CAT 2025 slot papers at question level, starting from the most recent accessible sources; preserve source conflicts and do not reproduce protected paper text.
+2. Build machine-readable question fingerprint and source ledger records.
+3. Research global intellectual sources and map them to original problem structures.
+4. Publish and independently validate exactly 25 pilot originals before any scale-up.
+5. Implement usable question bank, academy and mock experiences only as content and validation permit.
+6. Verify account auth/sync, restore stable live URL, and connect GitHub-to-Cloudflare deployment if supported by the existing account.
 
 ## Evidence limits
 
-- Public archives are secondary reproductions; official response-sheet/answer-key artifacts remain inaccessible to this automated research session.
-- IIM Ahmedabad links the official CAT 2026 information bulletin, but the PDF is blocked from automated retrieval (HTTP 403); exam details remain configurable pending direct review.
+- Secondary archives disagree on coverage and sometimes contain unofficial answer keys. A public archive transcription is not equivalent to an official response sheet.
+- IIM Ahmedabad links to the official CAT 2026 information bulletin, but the PDF is blocked to automated retrieval (HTTP 403). The working date must remain configurable until its content is directly reviewed.
+- The original sample items in the app are not research-derived and are excluded from the future pilot count.
+
+
