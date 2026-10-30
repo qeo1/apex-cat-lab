@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#10241f" />
+  <meta name="description" content="A research-led CAT practice studio for sharper reasoning, better decisions, and measurable progress." />
+  <title>APEX CAT LAB — Train the reasoning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="manifest" href="manifest.webmanifest" />
+</head>
+<body>
+  <div class="shell">
+    <aside class="rail">
+      <a class="brand" href="#top" aria-label="Apex home"><span class="brand-mark">A<span>.</span></span><span class="brand-name">APEX<br><small>CAT LAB</small></span></a>
+      <div class="rail-label">YOUR STUDIO</div>
+      <nav class="nav" aria-label="Main navigation">
+        <a class="nav-item active" href="#overview"><span class="nav-icon">▦</span> Overview</a>
+        <a class="nav-item" href="#practice"><span class="nav-icon">◈</span> Quick practice</a>
+        <a class="nav-item" href="#curriculum"><span class="nav-icon">⌘</span> Concept library</a>
+        <a class="nav-item" href="#progress"><span class="nav-icon">↗</span> Your progress</a>
+      </nav>
+      <div class="rail-bottom"><div class="sync-dot" id="sync-dot"></div><div><strong id="sync-title">Saved on this device</strong><small id="sync-detail">Sign in to sync across devices</small></div><span class="more">···</span></div>
+    </aside>
+
+    <main id="top">
+      <header class="topbar"><div class="crumb">STUDIO <span>/</span> OVERVIEW</div><div class="top-actions"><div class="streak"><span>✳</span> <b id="streak">0</b><small>DAY STREAK</small></div><button class="account-button" id="account-button">Sign in</button></div></header>
+      <section class="welcome" id="overview">
+        <div><div class="eyebrow"><span class="live-dot"></span> YOUR TRAINING, IN FOCUS</div><h1>Good work starts<br>with a <em>clear next step.</em></h1><p class="welcome-copy">Build the reasoning behind every answer. One focused session at a time.</p></div>
+        <div class="date-note"><span class="date-icon">◷</span><div><small>YOUR TARGET</small><strong>CAT 2026</strong><span>29 November · <b id="days-left">—</b> days to go</span></div></div>
+      </section>
+
+      <section class="section-heading"><div><div class="eyebrow muted">PICK UP WHERE YOU ARE</div><h2>Your next session</h2></div><span class="tiny-label">01 / TODAY</span></section>
+      <section class="session-grid">
+        <article class="session-card primary-card" id="practice"><div class="card-top"><span class="tag tag-light">DAILY PRACTICE</span><span class="card-index">01</span></div><div class="session-content"><div class="section-icon light-icon">↗</div><h3>Make a good<br>five minutes count.</h3><p>A short, original reasoning challenge. Work it through, then see the thinking behind it.</p><button class="button button-light" id="start-session">Start a quick set <span>↗</span></button></div><div class="card-orbit orbit-one"></div><div class="card-orbit orbit-two"></div><div class="card-grain"></div></article>
+        <article class="session-card varc-card"><div class="card-top"><span class="tag tag-green">VARC</span><span class="card-index">02</span></div><div class="session-content"><div class="section-icon">Aa</div><h3>Read for the<br>argument underneath.</h3><p>Practice tracing a claim, its limits, and the evidence that holds it up.</p><a class="text-link" href="#practice" data-section="VARC">Explore reading <span>↗</span></a></div><span class="quote-mark">“</span></article>
+        <article class="session-card dilr-card"><div class="card-top"><span class="tag tag-sand">DILR</span><span class="card-index">03</span></div><div class="session-content"><div class="section-icon">⌗</div><h3>Find structure<br>in the information.</h3><p>Turn conditions into a model. Then use it to rule out what cannot be true.</p><a class="text-link" href="#practice" data-section="DILR">Explore a set <span>↗</span></a></div><div class="grid-motif"></div></article>
+        <article class="session-card quant-card"><div class="card-top"><span class="tag tag-blue">QUANT</span><span class="card-index">04</span></div><div class="session-content"><div class="section-icon">∑</div><h3>See the relationship.<br>Choose the method.</h3><p>Strengthen fundamentals and get comfortable with unfamiliar setups.</p><a class="text-link" href="#practice" data-section="QUANT">Explore a problem <span>↗</span></a></div><div class="equation-motif">x : y<br><span>∴</span> f(x)</div></article>
+      </section>
+
+      <section class="lower-grid" id="progress"><article class="progress-card"><div class="section-heading compact"><div><div class="eyebrow muted">SMALL STEPS ADD UP</div><h2>Your progress</h2></div><span class="period">ALL TIME <span>⌄</span></span></div><div class="stats-row"><div class="stat"><strong id="total-solved">0</strong><small>QUESTIONS TRIED</small></div><div class="stat"><strong id="accuracy">—<i>%</i></strong><small>ACCURACY</small></div><div class="stat"><strong id="best-streak">0<i>d</i></strong><small>BEST STREAK</small></div></div><div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div><div class="track-label"><span>FOUNDATIONS</span><span id="foundation-progress">0 / 12 concepts</span></div></article>
+      <article class="focus-card" id="curriculum"><div class="focus-top"><div class="eyebrow muted">A PRINCIPLE TO KEEP</div><span>✳</span></div><h3>Reason first.<br>Calculate second.</h3><p>Before reaching for a formula, ask what stays constant and how the quantities relate.</p><a class="text-link" href="#practice">Try it in a question <span>↗</span></a><div class="focus-rule"></div></article></section>
+      <footer><span>APEX CAT LAB <span class="footer-mark">·</span> REASONING IS A PRACTICE</span><span>Independent practice studio <b>✳</b></span></footer>
+    </main>
+  </div>
+  <dialog id="account-dialog"><div class="account-frame"><div class="quiz-top"><span class="tag tag-green">YOUR ACCOUNT</span><button class="close-account" aria-label="Close">×</button></div><div id="account-signed-out"><h2>Keep your progress with you.</h2><p>Sign in to sync your practice history across devices.</p><label for="account-email">Email</label><input id="account-email" type="email" autocomplete="email" required /><label for="account-password">Password</label><input id="account-password" type="password" autocomplete="current-password" minlength="8" required /><div id="auth-message" class="auth-message" aria-live="polite"></div><div class="auth-actions"><button id="sign-in-button" class="button button-dark">Sign in</button><button id="sign-up-button" class="quiet-button">Create account</button></div></div><div id="account-signed-in" hidden><h2>You’re signed in.</h2><p id="account-email-label"></p><p>Your practice history is syncing to your account.</p><div id="signed-in-message" class="auth-message" aria-live="polite"></div><button id="sign-out-button" class="button button-dark">Sign out</button></div></div></dialog>
+  <dialog id="quiz-dialog"><div class="quiz-frame"><div class="quiz-top"><span class="tag tag-green">QUICK PRACTICE</span><button class="close-quiz" aria-label="Close">×</button></div><div class="quiz-meta"><span id="quiz-section">QUANT · RATIOS</span><span>01 / 01</span></div><h2 id="question-text"></h2><div id="options" class="options"></div><div id="feedback" class="feedback" aria-live="polite"></div><div class="quiz-actions"><button id="hint-button" class="quiet-button">Need a hint?</button><button id="submit-answer" class="button button-dark">Check answer <span>↗</span></button></div></div></dialog>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.118.0/dist/umd/supabase.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+
