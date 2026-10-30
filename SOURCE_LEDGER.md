@@ -19,6 +19,11 @@ Research snapshot: 2026-10-31 (Asia/Kolkata)
 | PYQ-08 | [CAT 2025 Slot 1 paper, Career Launcher](https://www.careerlauncher.com/blogs/wp-content/uploads/2025/11/CAT-Actual-Paper-2025-Slot-1-Q-Sol.pdf) | C — established CAT provider's paper reproduction/solutions | Cross-check questions and answers against another provider | Full paper reproduced; not an official response sheet. Confirms several audited numeric answers and question structure. |
 | PYQ-09 | [CAT 2025 Slot 1 QA reproduction, CATKing](https://catking.in/file/media_library/10317/6a16ce69659a4.pdf) | C — provider transcription/solution | Cross-check CAT 2025 Slot 1 QA Q3 minimum-number reasoning | Finds 268 as the minimum, with 6 factors, unlike GradeScale's explanation (which gives 628). Not a primary official key. |
 | PYQ-10 | [CAT 2025 Slot 1 QA question page, Mockat](https://mockat.com/cat-previous-year-papers/in-a-3-digit-number-n-the-digits-are-non-zero-and-distinct-cat-2025-slot-1) | C — question-level archive page | Cross-check bibliographic identity/slot and item wording | Labels the item CAT 2025 Slot 1 QA Q9 of 22. No official response-sheet link is shown. |
+| PYQ-11 | [CAT 2025 Slot 2 full transcription, GradeScale](https://www.gradscale.in/pyqs/cat/2025/2/view/) | C — secondary full-paper transcription | Slot 2 structural census and candidate question-level audits | Displays 24/22/22, 40 minutes each and broad topic clusters. No official response sheet is linked. |
+| PYQ-12 | [CAT 2025 Slot 2 solved paper, Career Launcher](https://www.careerlauncher.com/blogs/wp-content/uploads/2025/11/CAT-Actual-Paper-2025-Slot-2-Q-Sol.pdf) | C — established CAT provider's paper reproduction/solutions | Cross-check Slot 2 paper questions, section structure, and published keys | It reproduces answer tables; several QA TITA entries appear as NA. This is not itself an official response-sheet artifact. |
+| PYQ-13 | [CAT 2025 Slot 3 full transcription, GradeScale](https://www.gradscale.in/pyqs/cat/2025/3/view/) | C — secondary full-paper transcription | Slot 3 structural census and question-level audits | Shows 24/22/22 and broad section topic clusters. No official response sheet is linked. |
+| PYQ-14 | [CAT 2025 Slot 3 question index, Scorebuddy](https://scorebuddy.in/cat/pyq/2025/slot-3) | C — question-level archive index | Cross-check Slot 3 question labels and observed task families | Question locators differ from GradeScale's labels for at least one QA item; source numbering is not normalized against official response sheets. |
+| PYQ-15 | [CAT 2025 Slot 3 DILR reproduction, Collegedunia](https://image-static.collegedunia.com/public/image/DILR_Slot_3_Solutions_0fe000986a58ddcf44e02aff3926ac2b.pdf) | C — secondary full set transcription/solutions | Cross-check DILR section size and set-level representations | Reports 68 questions and 24/22/22; reproduced solutions are secondary, not official. |
 
 ## Global intellectual research sources
 
@@ -48,5 +53,4 @@ The first scoped global-source review is recorded in [`research/global/field-map
 - E: unverified reconstruction.
 
 No question has been admitted into the app as an authentic PYQ. The app's three sample prompts are original examples and are not labeled as CAT questions.
-
 
