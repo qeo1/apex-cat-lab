@@ -153,7 +153,7 @@ def validate(data):
             "question_level_audited": sum(q.get("retrieval_state") == "question_audited" for q in questions),
             "independently_answer_verified": sum(q.get("answer_state") == "independently_verified" for q in questions),
             "source_key_seen_only": sum(q.get("answer_state") == "source_key_seen" for q in questions),
-            "retrieved_unsolved": sum(q.get("retrieval_state") == "question_retrieved" for q in questions),
+            "retrieved_unsolved": sum(q.get("answer_state") == "unchecked" for q in questions),
             "officially_key_corroborated": sum(q.get("official_key_state") == "corroborated" for q in questions),
             "complete_shared_dilr_sets": sum(s.get("reconstruction_state") == "complete" for s in data["sets"]),
             "source_conflicts": len(data.get("conflicts", [])),
