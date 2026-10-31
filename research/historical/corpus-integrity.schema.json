@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Historical CAT corpus integrity expectations",
+  "type": "object",
+  "required": ["papers", "questions", "sets", "passages", "sources"],
+  "properties": {
+    "papers": {"type": "array", "items": {"type": "object", "required": ["id", "year", "slot", "section", "source_ids", "acquisition_state", "question_indexed_count", "question_audited_count"]}},
+    "questions": {"type": "array", "items": {"$ref": "question.schema.json"}},
+    "sets": {"type": "array", "items": {"type": "object", "required": ["id", "paper_id", "question_ids", "completeness", "source_ids"]}},
+    "passages": {"type": "array", "items": {"type": "object", "required": ["id", "paper_id", "question_ids", "completeness", "source_ids"]}},
+    "sources": {"type": "array", "items": {"type": "object", "required": ["id", "url", "source_class", "evidence_grade", "independence_group"]}}
+  }
+}
+
