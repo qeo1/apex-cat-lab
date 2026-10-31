@@ -1,6 +1,6 @@
 # CAT PYQ analytics — preliminary, index and one-slot evidence
 
-Date: 2026-10-31
+Date: 2026-10-31 (expanded question-level sample)
 
 ## Observations
 
@@ -23,4 +23,12 @@ For CAT 2025 Slot 1, an Indian Express report quoting T.I.M.E. and Career Launch
 ## Evidence boundary
 
 These are slot-level secondary observations only. No claim is made that all years, slots, questions, answer keys, difficulty ratings, TITA counts, VARC distractors or solve times have been analysed. No percentile or difficulty calibration is derived from this small evidence set.
+
+## Question-level sample now examined
+
+The audit database contains 27 CAT 2025 question records: 10 QA items across all slots, all 5 questions in Slot 1 DILR Set 5, all 4 questions in Slot 2 DILR Set 1, and 4 questions each from the first VARC passage in Slots 2 and 3. These counts are based on question content actually opened and independently checked, not archive headings. All are Grade C public reproductions, not official-key verified.
+
+Two source corrections matter for future content QA. GradeScale's Slot 1 QA minimization explanation names 628 despite 268 being smaller and valid. Its Slot 2 DILR Set 1 explanation reverses the relation implied by a ping on H4 (a ping means ball diameter is no greater than hoop diameter); the four published answers still follow from the corrected partial order. These are explanation errors, not proven official-key discrepancies.
+
+The 27/204 coverage is incomplete and non-random. It is not suitable for topic frequency claims or predictions. Several DILR data displays are image-based and VARC reproductions use ellipses, so inaccessible content is explicitly left unaudited.
 
