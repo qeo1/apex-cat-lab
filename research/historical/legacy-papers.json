@@ -1,0 +1,23 @@
+{
+  "papers": [
+    {
+      "id": "CAT-1991-PAPER",
+      "year": 1991,
+      "slot": null,
+      "source_ids": [
+        "CAT-HIST-1991"
+      ],
+      "source_url": "https://www.thecatexam.com/pyp/cat/cat-1991",
+      "archive_claimed_question_count": 180,
+      "archive_section_labels": [
+        "VARC",
+        "DILR",
+        "QA"
+      ],
+      "state": "secondary_question_page_opened; whole-paper completeness not audited",
+      "question_item_records": 1,
+      "note": "Source calls this a complete paper and displays items in all archive-labelled sections. The labels/count require independent cross-source review. Only Q1 is represented as retrieved but unsolved."
+    }
+  ]
+}
+
