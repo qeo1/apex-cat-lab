@@ -20,6 +20,7 @@
       <nav class="nav" aria-label="Main navigation">
         <a class="nav-item active" href="#overview"><span class="nav-icon">▦</span> Overview</a>
         <a class="nav-item" href="#practice"><span class="nav-icon">◈</span> Quick practice</a>
+        <a class="nav-item" href="#research-pilot"><span class="nav-icon">✳</span> Research pilot</a>
         <a class="nav-item" href="#curriculum"><span class="nav-icon">⌘</span> Concept library</a>
         <a class="nav-item" href="#progress"><span class="nav-icon">↗</span> Your progress</a>
       </nav>
@@ -43,6 +44,11 @@
 
       <section class="lower-grid" id="progress"><article class="progress-card"><div class="section-heading compact"><div><div class="eyebrow muted">SMALL STEPS ADD UP</div><h2>Your progress</h2></div><span class="period">ALL TIME <span>⌄</span></span></div><div class="stats-row"><div class="stat"><strong id="total-solved">0</strong><small>QUESTIONS TRIED</small></div><div class="stat"><strong id="accuracy">—<i>%</i></strong><small>ACCURACY</small></div><div class="stat"><strong id="best-streak">0<i>d</i></strong><small>BEST STREAK</small></div></div><div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div><div class="track-label"><span>FOUNDATIONS</span><span id="foundation-progress">0 / 12 concepts</span></div></article>
       <article class="focus-card" id="curriculum"><div class="focus-top"><div class="eyebrow muted">A PRINCIPLE TO KEEP</div><span>✳</span></div><h3>Reason first.<br>Calculate second.</h3><p>Before reaching for a formula, ask what stays constant and how the quantities relate.</p><a class="text-link" href="#practice">Try it in a question <span>↗</span></a><div class="focus-rule"></div></article></section>
+      <section class="pilot-section" id="research-pilot" aria-labelledby="pilot-title">
+        <div class="pilot-heading"><div><div class="eyebrow muted">ORIGINAL · RESEARCH-DERIVED · VALIDATED</div><h2 id="pilot-title">Research Pilot</h2><p>25 original questions with CAT benchmarks and research provenance. These are practice questions, not authentic CAT PYQs.</p></div><span class="pilot-count">25 QUESTIONS</span></div>
+        <div class="pilot-filters" role="group" aria-label="Filter pilot questions"><button class="pilot-filter active" data-pilot-filter="ALL">All 25</button><button class="pilot-filter" data-pilot-filter="QA">QA · 10</button><button class="pilot-filter" data-pilot-filter="DILR">DILR · 10</button><button class="pilot-filter" data-pilot-filter="VARC">VARC · 5</button></div>
+        <div id="pilot-content" class="pilot-content"><p class="pilot-loading">Loading validated research pilot…</p></div>
+      </section>
       <footer><span>APEX CAT LAB <span class="footer-mark">·</span> REASONING IS A PRACTICE</span><span>Independent practice studio <b>✳</b></span></footer>
     </main>
   </div>
@@ -50,6 +56,7 @@
   <dialog id="quiz-dialog"><div class="quiz-frame"><div class="quiz-top"><span class="tag tag-green">QUICK PRACTICE</span><button class="close-quiz" aria-label="Close">×</button></div><div class="quiz-meta"><span id="quiz-section">QUANT · RATIOS</span><span>01 / 01</span></div><h2 id="question-text"></h2><div id="options" class="options"></div><div id="feedback" class="feedback" aria-live="polite"></div><div class="quiz-actions"><button id="hint-button" class="quiet-button">Need a hint?</button><button id="submit-answer" class="button button-dark">Check answer <span>↗</span></button></div></div></dialog>
   <script src="./vendor/supabase-js-2.118.0.min.js"></script>
   <script src="app.js"></script>
+  <script src="pilot-app.js"></script>
 </body>
 </html>
 
