@@ -1,47 +1,68 @@
 # Build status
 
-Updated: 2026-10-31 (counts are repository inventory, not targets)
+Updated: 2026-10-31 (measured from repository records and validated acquisition artifacts)
 
-## Current verified inventory
+## Historical CAT corpus — Phase 1 seed
+
+| Measure | Count | Meaning |
+|---|---:|---|
+| Candidate years in current slot census | 9 (2017–2025) | Secondary-archive slot model; not an official year census |
+| Candidate slots | 24 | 2017–2019: 2/year; 2020–2025: 3/year |
+| Candidate section records | 72 | Three sections per candidate slot |
+| Registered research sources | 17 | Archives, question-level reproductions, secondary reporting and legacy leads; source count is not independent corroboration |
+| Acquired CAT section PDFs | 63 | 2017–2024 ZIP, all named year/slot/section files hashed; PDFs contain question pages; page-by-page completeness is still unchecked |
+| Complete slot papers retrieved and completeness checked | 0 | No full slot paper has passed a question/image/page completeness audit |
+| Partial question-level paper transcriptions examined | 6 slot/year records plus CAT 1991 annual page | CAT 2017 S1, CAT 2023 S1, CAT 2024 S1, CAT 2025 S1–S3, and CAT 1991 Q1 visible |
+| Question-level records | 49 | 42 audited; 6 more CAT 2023/24 questions have only a secondary key; CAT 1991 Q1 is retrieved but unsolved |
+| Structurally audited and independently answer-checked | 42 | CAT 2025: 27; CAT 2023 S1: 7; CAT 2024 S1: 7; CAT 2017 S1: 1 |
+| Questions structurally audited and independently answer-checked | 42 | CAT 2025: 27; CAT 2023 S1: 7; CAT 2024 S1: 7; CAT 2017 S1: 1 |
+| Official-key corroborated questions | 0 | All examined materials are secondary reproductions; no official response sheet verified |
+| Complete shared DILR sets reconstructed | 4 | CAT 2023 S1, CAT 2024 S1, and two CAT 2025 sets; two new sets have deterministic enumeration checks |
+| Complete VARC passages retrieved | 0 | All four represented passage groups contain omissions/ellipses or otherwise lack a full passage transcript |
+| Legacy year leads before 2017 | 21 records | TheCATExam lists 1991–2008 and 2016; PreviousYearPapers lists 1990–2017; 2009–2015 is an unresolved gap; one CAT 1991 question page opened |
+| Duplicate question records removed | 0 | No exact duplicate question records found; structural similarity warnings: 0 in this seed |
+
+## Existing application and content
 
 | Asset | Implemented count | State |
 |---|---:|---|
-| Original practice questions in app | 3 | Starter examples only; none are PYQs |
-| CAT PYQ source records in ledger | 15 | Index and primary/secondary cross-check sources; audit underway |
-| CAT 2025 questions independently audited | 27 | 10 QA, 9 DILR (two complete shared sets), 8 VARC (two passage sets); grade C sources, official key unchecked |
-| Research-derived pilot questions | 25 / 25 approved | QA/DILR deterministic checks and VARC textual evidence audit passed; integrated in labelled app section; static preview interaction verified |
+| Original practice questions in app | 3 | Starter examples; not PYQs |
+| Research-derived experimental pilot questions | 25 / 25 | Retained as a separate labelled collection; not counted as historical research progress |
 | Complete mock examinations | 0 / 100 | Not started |
 | Concept Academy lessons | 0 complete | Dashboard placeholder only |
-| User data sync | Implemented, not end-to-end verified | Supabase project/table exist; Auth redirect config/account test pending |
-| Automated deployments | 0 active | GitHub Actions workflow and static build is ready; repository deployment secrets are not configured, so production still serves its prior release |
+| User data sync | Implemented, not end-to-end verified | Existing Supabase/Auth work preserved |
+| Automated deployments | 0 active | Workflow is prepared; production was not deployed in this milestone |
 
-## Existing product and infrastructure
+## Infrastructure preserved
 
-- Existing Cloudflare Pages project: `apex-cat-lab`; continue using it. Previously successful deployment: `f78e4c7a-9532-4aef-901d-2ca00a71dfb2`, `https://f78e4c7a.apex-cat-lab.pages.dev`.
-- Existing private GitHub repository: [qeo1/apex-cat-lab](https://github.com/qeo1/apex-cat-lab). Local `main` history is not connected to a Git remote; repository contents were uploaded through GitHub's API.
-- Existing Supabase project: `adlgchkwmwvoxeaohlhz`; `practice_events` has owner-scoped RLS. Client-side auth and sync are implemented, but email redirect allow-list and account-to-account sync are not yet verified.
-- App contains three original demonstration questions, local progress, a PWA shell, and sign-in/sign-up controls.
+- Existing Cloudflare Pages project: `apex-cat-lab`; production URL remains [26d31cec.apex-cat-lab.pages.dev](https://26d31cec.apex-cat-lab.pages.dev/).
+- Existing GitHub repository: [qeo1/apex-cat-lab](https://github.com/qeo1/apex-cat-lab).
+- Existing Supabase project and authentication/sync implementation are untouched.
+- The 2IIM ZIP and rendered inspection images remain in ignored `work/`; the committed manifest stores filenames, page counts, sizes and SHA-256 hashes, not the 105 MB extracted PDF corpus.
+- No production deployment was triggered.
 
-## Research capability and current work
+## Research findings from examined questions
 
-- Live web research is available in this environment and is being used for source discovery and question-level CAT research. Source capture must include URL, date, evidence grade, audited question identifier and explicit uncertainties.
-- CAT 2025 research currently contains 27 question-level records: ten QA questions, two complete DILR sets (nine questions), and two four-question VARC passage groups. All are Grade C secondary transcriptions; no official response-sheet key was verified. The 25-item original Research Pilot is internally approved after 20 blind deterministic QA/DILR re-solves and a five-item VARC textual evidence audit; it is not a psychometrically calibrated bank. Findings include a wrong minimum in one Slot 1 QA explanation, an inequality-direction error in a Slot 2 DILR explanation, and locator conflicts. This is not a complete audit of the 204 archive-indexed questions.
-- No 25-question pilot is admitted until each original item has a research rationale, CAT benchmark fingerprint, independent solution check, and adversarial uniqueness check.
+- A CAT 2017 QA age-ratio question reduces to one linear relation after normalizing present ages.
+- CAT 2023 QA tests two sequential prime-exponent divisibility minima; CAT 2024 QA uses inclusion–exclusion for onto functions.
+- The CAT 2023 DILR housing grid has two feasible occupancy patterns (64 parking-labelled states) after enumerating 1,572,864 occupancy/parking candidates without assuming Block XX has no parking; all five answers are invariant.
+- The CAT 2024 DILR tournament has two labelled solutions related only by group-name symmetry; the schedule and all five answers are invariant.
+- Cross-year VARC samples require scope discipline: region-category mismatch (2023) and identifying a shared consequence without transferring a one-sided feature (2024).
 
-## Next milestones
+## Remaining Phase 1 work
 
-1. Continue the 204-item CAT 2025 paper audit; prioritize image-dependent DILR and remaining QA, VARC.
-2. Continue widening the examined CAT 2025 question census beyond 27/204; the 25-item pilot is approved and integrated, with calibration and external editorial review still future work.
-3. Only after pilot validation, scope the 1,600-question expansion.
-4. Complete 100 mocks and the Concept Academy as later milestones.
-5. Verify account auth/sync and activate the prepared GitHub Actions-to-Cloudflare deployment after secure repository secrets are provisioned.
+1. Validate every page, item, answer control, diagram and locator in the 63 acquired section PDFs; count individual questions and reconstruct all set/passage relationships.
+2. Cross-map those items to independent reproductions and preserve source-specific numbering.
+3. Continue CAT 2025 audit beyond the 27 individually audited questions.
+4. Retrieve and examine earlier-year public paper files. Legacy archive listings are discovery leads only; no inaccessible course material was accessed.
+5. Independently solve more historical questions and check against official keys if any become reliably accessible.
+6. Continue structural/difficulty analysis only from actual inspected questions. No psychometric calibration exists.
 
-## Evidence limits
+## Validation run in this milestone
 
-- Secondary archives disagree on coverage and sometimes contain unofficial answer keys. A public archive transcription is not equivalent to an official response sheet.
-- IIM Ahmedabad links to the official CAT 2026 information bulletin, but the PDF is blocked to automated retrieval (HTTP 403). The working date must remain configurable until its content is directly reviewed.
-- The original sample items in the app are not research-derived and are excluded from the future pilot count.
-
-
-
+- `python scripts/validate_historical_corpus.py` — source registry, 72 candidate section records, all 63 acquired PDFs mapped once to the 2017–2024 candidate sections, 49 question records, no data integrity errors, no exact structural fingerprint duplicates.
+- `research/historical/audit-status.json` records current state counts and the validator checks them against item, set, conflict and paper records; counts come from actual evidence records, not archive index totals.
+- `python scripts/verify_historical_answers.py` — deterministic checks for CAT 2017 QA Q1, CAT 2023 QA Q1, CAT 2024 QA Q1, the complete CAT 2023 housing set and CAT 2024 tournament set.
+- `python -m unittest discover -s tests -v` — 5 integrity tests pass, including duplicate ID, orphan reference, incomplete PDF manifest, and false complete-paper claim rejection.
+- These checks validate only the represented records and sampled solutions. They do not establish that any full historical examination paper has been completely audited.
 
