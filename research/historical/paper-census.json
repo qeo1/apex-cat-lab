@@ -1,0 +1,1303 @@
+{
+  "snapshot": "2026-10-31",
+  "scope_note": "Candidate slot-section inventory for 2017-2025; slot model inferred from secondary archives and must be cross-checked against official records.",
+  "papers": [
+    {
+      "id": "CAT-2017-S1-VARC",
+      "year": 2017,
+      "slot": 1,
+      "section": "VARC",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2017-S1-DILR",
+      "year": 2017,
+      "slot": 1,
+      "section": "DILR",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2017-S1-QA",
+      "year": 2017,
+      "slot": 1,
+      "section": "QA",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 34,
+      "question_indexed_count": 1,
+      "question_audited_count": 1,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2017-S2-VARC",
+      "year": 2017,
+      "slot": 2,
+      "section": "VARC",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2017-S2-DILR",
+      "year": 2017,
+      "slot": 2,
+      "section": "DILR",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2017-S2-QA",
+      "year": 2017,
+      "slot": 2,
+      "section": "QA",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2018-S1-VARC",
+      "year": 2018,
+      "slot": 1,
+      "section": "VARC",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2018-S1-DILR",
+      "year": 2018,
+      "slot": 1,
+      "section": "DILR",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2018-S1-QA",
+      "year": 2018,
+      "slot": 1,
+      "section": "QA",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2018-S2-VARC",
+      "year": 2018,
+      "slot": 2,
+      "section": "VARC",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2018-S2-DILR",
+      "year": 2018,
+      "slot": 2,
+      "section": "DILR",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2018-S2-QA",
+      "year": 2018,
+      "slot": 2,
+      "section": "QA",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2019-S1-VARC",
+      "year": 2019,
+      "slot": 1,
+      "section": "VARC",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2019-S1-DILR",
+      "year": 2019,
+      "slot": 1,
+      "section": "DILR",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2019-S1-QA",
+      "year": 2019,
+      "slot": 1,
+      "section": "QA",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2019-S2-VARC",
+      "year": 2019,
+      "slot": 2,
+      "section": "VARC",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2019-S2-DILR",
+      "year": 2019,
+      "slot": 2,
+      "section": "DILR",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2019-S2-QA",
+      "year": 2019,
+      "slot": 2,
+      "section": "QA",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2020-S1-VARC",
+      "year": 2020,
+      "slot": 1,
+      "section": "VARC",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2020-S1-DILR",
+      "year": 2020,
+      "slot": 1,
+      "section": "DILR",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2020-S1-QA",
+      "year": 2020,
+      "slot": 1,
+      "section": "QA",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2020-S2-VARC",
+      "year": 2020,
+      "slot": 2,
+      "section": "VARC",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2020-S2-DILR",
+      "year": 2020,
+      "slot": 2,
+      "section": "DILR",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2020-S2-QA",
+      "year": 2020,
+      "slot": 2,
+      "section": "QA",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2020-S3-VARC",
+      "year": 2020,
+      "slot": 3,
+      "section": "VARC",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2020-S3-DILR",
+      "year": 2020,
+      "slot": 3,
+      "section": "DILR",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2020-S3-QA",
+      "year": 2020,
+      "slot": 3,
+      "section": "QA",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": null,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2021-S1-VARC",
+      "year": 2021,
+      "slot": 1,
+      "section": "VARC",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 24,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2021-S1-DILR",
+      "year": 2021,
+      "slot": 1,
+      "section": "DILR",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2021-S1-QA",
+      "year": 2021,
+      "slot": 1,
+      "section": "QA",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2021-S2-VARC",
+      "year": 2021,
+      "slot": 2,
+      "section": "VARC",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 24,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2021-S2-DILR",
+      "year": 2021,
+      "slot": 2,
+      "section": "DILR",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2021-S2-QA",
+      "year": 2021,
+      "slot": 2,
+      "section": "QA",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2021-S3-VARC",
+      "year": 2021,
+      "slot": 3,
+      "section": "VARC",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 24,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2021-S3-DILR",
+      "year": 2021,
+      "slot": 3,
+      "section": "DILR",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2021-S3-QA",
+      "year": 2021,
+      "slot": 3,
+      "section": "QA",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2022-S1-VARC",
+      "year": 2022,
+      "slot": 1,
+      "section": "VARC",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 24,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2022-S1-DILR",
+      "year": 2022,
+      "slot": 1,
+      "section": "DILR",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2022-S1-QA",
+      "year": 2022,
+      "slot": 1,
+      "section": "QA",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2022-S2-VARC",
+      "year": 2022,
+      "slot": 2,
+      "section": "VARC",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 24,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2022-S2-DILR",
+      "year": 2022,
+      "slot": 2,
+      "section": "DILR",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2022-S2-QA",
+      "year": 2022,
+      "slot": 2,
+      "section": "QA",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2022-S3-VARC",
+      "year": 2022,
+      "slot": 3,
+      "section": "VARC",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 24,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2022-S3-DILR",
+      "year": 2022,
+      "slot": 3,
+      "section": "DILR",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2022-S3-QA",
+      "year": 2022,
+      "slot": 3,
+      "section": "QA",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2023-S1-VARC",
+      "year": 2023,
+      "slot": 1,
+      "section": "VARC",
+      "source_ids": [
+        "GS23-S1"
+      ],
+      "acquisition_state": "section_pdf_and_web_transcription_partially_reviewed",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 24,
+      "question_indexed_count": 4,
+      "question_audited_count": 1,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "partial",
+      "retrieval_note": "2IIM section PDF acquired; GradeScale slot page and listed questions opened. VARC passages contain ellipses and source-specific set locators vary."
+    },
+    {
+      "id": "CAT-2023-S1-DILR",
+      "year": 2023,
+      "slot": 1,
+      "section": "DILR",
+      "source_ids": [
+        "GS23-S1"
+      ],
+      "acquisition_state": "section_pdf_and_web_transcription_partially_reviewed",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 20,
+      "question_indexed_count": 5,
+      "question_audited_count": 5,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "partial",
+      "retrieval_note": "2IIM section PDF acquired; GradeScale slot page and listed questions opened. VARC passages contain ellipses and source-specific set locators vary."
+    },
+    {
+      "id": "CAT-2023-S1-QA",
+      "year": 2023,
+      "slot": 1,
+      "section": "QA",
+      "source_ids": [
+        "GS23-S1"
+      ],
+      "acquisition_state": "section_pdf_and_web_transcription_partially_reviewed",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 1,
+      "question_audited_count": 1,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "partial",
+      "retrieval_note": "2IIM section PDF acquired; GradeScale slot page and listed questions opened. VARC passages contain ellipses and source-specific set locators vary."
+    },
+    {
+      "id": "CAT-2023-S2-VARC",
+      "year": 2023,
+      "slot": 2,
+      "section": "VARC",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 24,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2023-S2-DILR",
+      "year": 2023,
+      "slot": 2,
+      "section": "DILR",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 20,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2023-S2-QA",
+      "year": 2023,
+      "slot": 2,
+      "section": "QA",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2023-S3-VARC",
+      "year": 2023,
+      "slot": 3,
+      "section": "VARC",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 24,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2023-S3-DILR",
+      "year": 2023,
+      "slot": 3,
+      "section": "DILR",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 20,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2023-S3-QA",
+      "year": 2023,
+      "slot": 3,
+      "section": "QA",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2024-S1-VARC",
+      "year": 2024,
+      "slot": 1,
+      "section": "VARC",
+      "source_ids": [
+        "GS24-S1"
+      ],
+      "acquisition_state": "section_pdf_and_web_transcription_partially_reviewed",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 24,
+      "question_indexed_count": 4,
+      "question_audited_count": 1,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "partial",
+      "retrieval_note": "2IIM section PDF acquired; GradeScale slot page and listed questions opened. VARC passages contain ellipses and source-specific set locators vary."
+    },
+    {
+      "id": "CAT-2024-S1-DILR",
+      "year": 2024,
+      "slot": 1,
+      "section": "DILR",
+      "source_ids": [
+        "GS24-S1"
+      ],
+      "acquisition_state": "section_pdf_and_web_transcription_partially_reviewed",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 5,
+      "question_audited_count": 5,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "partial",
+      "retrieval_note": "2IIM section PDF acquired; GradeScale slot page and listed questions opened. VARC passages contain ellipses and source-specific set locators vary."
+    },
+    {
+      "id": "CAT-2024-S1-QA",
+      "year": 2024,
+      "slot": 1,
+      "section": "QA",
+      "source_ids": [
+        "GS24-S1"
+      ],
+      "acquisition_state": "section_pdf_and_web_transcription_partially_reviewed",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 1,
+      "question_audited_count": 1,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "partial",
+      "retrieval_note": "2IIM section PDF acquired; GradeScale slot page and listed questions opened. VARC passages contain ellipses and source-specific set locators vary."
+    },
+    {
+      "id": "CAT-2024-S2-VARC",
+      "year": 2024,
+      "slot": 2,
+      "section": "VARC",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 24,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2024-S2-DILR",
+      "year": 2024,
+      "slot": 2,
+      "section": "DILR",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2024-S2-QA",
+      "year": 2024,
+      "slot": 2,
+      "section": "QA",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2024-S3-VARC",
+      "year": 2024,
+      "slot": 3,
+      "section": "VARC",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 24,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2024-S3-DILR",
+      "year": 2024,
+      "slot": 3,
+      "section": "DILR",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2024-S3-QA",
+      "year": 2024,
+      "slot": 3,
+      "section": "QA",
+      "source_ids": [
+        "2IIM-PDF-ZIP"
+      ],
+      "acquisition_state": "section_pdf_retrieved_not_fully_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "Section PDF downloaded from the 2IIM 2017-2024 ZIP; sample question pages show actual question statements. Complete page-by-page content and media check pending."
+    },
+    {
+      "id": "CAT-2025-S1-VARC",
+      "year": 2025,
+      "slot": 1,
+      "section": "VARC",
+      "source_ids": [
+        "GS25-S1"
+      ],
+      "acquisition_state": "secondary_transcription_partially_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 24,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "GradeScale question-level page located; only listed items were individually audited. Do not treat the archive page's full-paper label as a completed audit."
+    },
+    {
+      "id": "CAT-2025-S1-DILR",
+      "year": 2025,
+      "slot": 1,
+      "section": "DILR",
+      "source_ids": [
+        "GS25-S1"
+      ],
+      "acquisition_state": "secondary_transcription_partially_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 5,
+      "question_audited_count": 5,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "GradeScale question-level page located; only listed items were individually audited. Do not treat the archive page's full-paper label as a completed audit."
+    },
+    {
+      "id": "CAT-2025-S1-QA",
+      "year": 2025,
+      "slot": 1,
+      "section": "QA",
+      "source_ids": [
+        "GS25-S1"
+      ],
+      "acquisition_state": "secondary_transcription_partially_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 2,
+      "question_audited_count": 2,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "GradeScale question-level page located; only listed items were individually audited. Do not treat the archive page's full-paper label as a completed audit."
+    },
+    {
+      "id": "CAT-2025-S2-VARC",
+      "year": 2025,
+      "slot": 2,
+      "section": "VARC",
+      "source_ids": [
+        "GS25-S2"
+      ],
+      "acquisition_state": "secondary_transcription_partially_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 24,
+      "question_indexed_count": 4,
+      "question_audited_count": 4,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "GradeScale question-level page located; only listed items were individually audited. Do not treat the archive page's full-paper label as a completed audit."
+    },
+    {
+      "id": "CAT-2025-S2-DILR",
+      "year": 2025,
+      "slot": 2,
+      "section": "DILR",
+      "source_ids": [
+        "GS25-S2"
+      ],
+      "acquisition_state": "secondary_transcription_partially_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 4,
+      "question_audited_count": 4,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "GradeScale question-level page located; only listed items were individually audited. Do not treat the archive page's full-paper label as a completed audit."
+    },
+    {
+      "id": "CAT-2025-S2-QA",
+      "year": 2025,
+      "slot": 2,
+      "section": "QA",
+      "source_ids": [
+        "GS25-S2"
+      ],
+      "acquisition_state": "secondary_transcription_partially_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 4,
+      "question_audited_count": 4,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "GradeScale question-level page located; only listed items were individually audited. Do not treat the archive page's full-paper label as a completed audit."
+    },
+    {
+      "id": "CAT-2025-S3-VARC",
+      "year": 2025,
+      "slot": 3,
+      "section": "VARC",
+      "source_ids": [
+        "GS25-S3"
+      ],
+      "acquisition_state": "secondary_transcription_partially_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 24,
+      "question_indexed_count": 4,
+      "question_audited_count": 4,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "GradeScale question-level page located; only listed items were individually audited. Do not treat the archive page's full-paper label as a completed audit."
+    },
+    {
+      "id": "CAT-2025-S3-DILR",
+      "year": 2025,
+      "slot": 3,
+      "section": "DILR",
+      "source_ids": [
+        "GS25-S3"
+      ],
+      "acquisition_state": "secondary_transcription_partially_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 0,
+      "question_audited_count": 0,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "GradeScale question-level page located; only listed items were individually audited. Do not treat the archive page's full-paper label as a completed audit."
+    },
+    {
+      "id": "CAT-2025-S3-QA",
+      "year": 2025,
+      "slot": 3,
+      "section": "QA",
+      "source_ids": [
+        "GS25-S3"
+      ],
+      "acquisition_state": "secondary_transcription_partially_audited",
+      "candidate_slot_model": "2017-2019 two slots; 2020-2025 three slots, based on available archive indexes; not official census",
+      "section_question_count_claim": 22,
+      "question_indexed_count": 4,
+      "question_audited_count": 4,
+      "complete_paper": false,
+      "official_corroboration_count": 0,
+      "media_review": "pending",
+      "retrieval_note": "GradeScale question-level page located; only listed items were individually audited. Do not treat the archive page's full-paper label as a completed audit."
+    }
+  ]
+}
+
