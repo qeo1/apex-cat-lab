@@ -1,0 +1,57 @@
+{
+  "snapshot": "2026-10-31",
+  "scope": "Evidence-backed question records only; candidate paper rows and archive index claims are not counted as audited questions.",
+  "discovered_candidate_years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "retrieved_legacy_question_page_years": [
+    1991
+  ],
+  "candidate_slot_count": 24,
+  "candidate_section_records": 72,
+  "registered_source_records": 17,
+  "acquired_section_pdfs": 63,
+  "complete_slot_papers_page_by_page_audited": 0,
+  "question_records": 49,
+  "question_level_audited": 42,
+  "independently_answer_verified": 42,
+  "source_key_seen_only": 6,
+  "retrieved_unsolved": 7,
+  "officially_key_corroborated": 0,
+  "complete_shared_dilr_sets": 4,
+  "complete_varc_passages": 0,
+  "source_conflicts": 8,
+  "sections": {
+    "VARC": {
+      "question_records": 17,
+      "structurally_audited": 10,
+      "independently_answer_verified": 10,
+      "secondary_key_seen_only": 6,
+      "retrieved_unsolved": 7
+    },
+    "DILR": {
+      "question_records": 19,
+      "structurally_audited": 19,
+      "independently_answer_verified": 19,
+      "secondary_key_seen_only": 0,
+      "retrieved_unsolved": 0
+    },
+    "QA": {
+      "question_records": 13,
+      "structurally_audited": 13,
+      "independently_answer_verified": 13,
+      "secondary_key_seen_only": 0,
+      "retrieved_unsolved": 0
+    }
+  },
+  "unresolved_historical_span": "Pre-slot archive leads cover 1990-2008 and 2016; 2009-2015 remains an unresolved discovery gap, not a confirmed absence."
+}
+
