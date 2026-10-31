@@ -15,7 +15,6 @@ Updated: 2026-10-31 (measured from repository records and validated acquisition 
 | Partial question-level paper transcriptions examined | 6 slot/year records plus CAT 1991 annual page | CAT 2017 S1, CAT 2023 S1, CAT 2024 S1, CAT 2025 S1–S3, and CAT 1991 Q1 visible |
 | Question-level records | 49 | 42 audited; 6 more CAT 2023/24 questions have only a secondary key; CAT 1991 Q1 is retrieved but unsolved |
 | Structurally audited and independently answer-checked | 42 | CAT 2025: 27; CAT 2023 S1: 7; CAT 2024 S1: 7; CAT 2017 S1: 1 |
-| Questions structurally audited and independently answer-checked | 42 | CAT 2025: 27; CAT 2023 S1: 7; CAT 2024 S1: 7; CAT 2017 S1: 1 |
 | Official-key corroborated questions | 0 | All examined materials are secondary reproductions; no official response sheet verified |
 | Complete shared DILR sets reconstructed | 4 | CAT 2023 S1, CAT 2024 S1, and two CAT 2025 sets; two new sets have deterministic enumeration checks |
 | Complete VARC passages retrieved | 0 | All four represented passage groups contain omissions/ellipses or otherwise lack a full passage transcript |
