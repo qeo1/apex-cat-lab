@@ -24,6 +24,11 @@ Research snapshot: 2026-10-31 (Asia/Kolkata)
 | PYQ-13 | [CAT 2025 Slot 3 full transcription, GradeScale](https://www.gradscale.in/pyqs/cat/2025/3/view/) | C — secondary full-paper transcription | Slot 3 structural census and question-level audits | Shows 24/22/22 and broad section topic clusters. No official response sheet is linked. |
 | PYQ-14 | [CAT 2025 Slot 3 question index, Scorebuddy](https://scorebuddy.in/cat/pyq/2025/slot-3) | C — question-level archive index | Cross-check Slot 3 question labels and observed task families | Question locators differ from GradeScale's labels for at least one QA item; source numbering is not normalized against official response sheets. |
 | PYQ-15 | [CAT 2025 Slot 3 DILR reproduction, Collegedunia](https://image-static.collegedunia.com/public/image/DILR_Slot_3_Solutions_0fe000986a58ddcf44e02aff3926ac2b.pdf) | C — secondary full set transcription/solutions | Cross-check DILR section size and set-level representations | Reports 68 questions and 24/22/22; reproduced solutions are secondary, not official. |
+| GLOB-11 | [MIT 18.200 lecture notes: Generating Functions](https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_lec07-08.pdf) | Primary university lecture notes | Generating functions as compact encodings for enumerative sequences and recurrences | Reviewed for the counting design principle; no lecture exercise copied into the pilot. |
+| GLOB-12 | [MIT 18.05 Class 3: Conditional Probability, Independence, and Bayes’ Theorem](https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/mit18_05_s22_lec03.pdf) | Primary university lecture slides | Conditional sample spaces and Bayes updates | Reviewed for explicit denominator/base-rate treatment; pilot rates and scenario are original. |
+| GLOB-13 | [Stanford Encyclopedia of Philosophy: Models in Science](https://plato.stanford.edu/entries/models-science/) | Scholarly reference; expert-edited | Idealization, assumptions, and limits of model-to-target inference | Reviewed for the distinction between a useful model and its target; no CAT syllabus claim. |
+| GLOB-14 | [Purdue OWL: Toulmin Argument](https://owl.purdue.edu/owl/general_writing/academic_writing/historical_perspectives_on_argumentation/toulmin_argument.html) | University writing resource | Claim, grounds, warrant, qualifier and rebuttal | Reviewed for VARC passage architecture and distractor review; passage text is original. |
+| GLOB-15 | [MIT CSAIL ARML Book: Triangle formulas](https://people.csail.mit.edu/sukhaj/ARMLBook/TrianglesF.pdf) | University-hosted mathematical reference | Triangle area, perpendicular altitude and right-triangle relations | Reviewed for the geometry derivation; the pilot uses an original point-to-line/circle construction. |
 
 ## Global intellectual research sources
 
@@ -42,7 +47,7 @@ These are research foundations for discovering problem structures. A source bein
 | GLOB-09 | [Purdue OWL: Toulmin argument](https://owl.purdue.edu/owl/general_writing/academic_writing/historical_perspectives_on_argumentation/toulmin_argument.html) | University writing resource | Claim, grounds, warrant, qualifier, rebuttal and backing; helps build defensible VARC distractors | Pedagogical model, not experimental evidence about question difficulty. |
 | GLOB-10 | [Purdue OWL: Organizing an argument](https://owl.purdue.edu/owl/general_writing/academic_writing/establishing_arguments/organizing_your_argument.html) | University writing resource | Argument progression, counterclaim and rebuttal structure | Useful for analytical-writing concepts and passage architecture; not a CAT source. |
 
-The first scoped global-source review is recorded in [`research/global/field-map.md`](research/global/field-map.md). Coverage is an initial discovery pass, not the comprehensive research programme requested.
+The first scoped global-source review is recorded in [`research/global/field-map.md`](research/global/field-map.md). Pilot source aliases map to ledger IDs: MIT-DM→GLOB-11/GLOB-01; MIT-PROB→GLOB-12/GLOB-03; SEP-MODELS→GLOB-13; NOBEL-CPR→GLOB-08; PURDUE-TOULMIN→GLOB-14/GLOB-09. Coverage remains a partial research pass, not the comprehensive research programme requested.
 
 ## Authenticity labels
 
@@ -53,4 +58,5 @@ The first scoped global-source review is recorded in [`research/global/field-map
 - E: unverified reconstruction.
 
 No question has been admitted into the app as an authentic PYQ. The app's three sample prompts are original examples and are not labeled as CAT questions.
+
 
