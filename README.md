@@ -30,3 +30,7 @@ The pilot count remains zero until each original question includes its research 
 
 
 
+## Research pilot and audit
+
+The labelled original 25-question pilot is in the app under Research Pilot. Full question provenance and solutions: [PILOT_RESEARCH_REPORT.md](PILOT_RESEARCH_REPORT.md). Validation and diversity reviews: [QUESTION_VALIDATION_REPORT.md](QUESTION_VALIDATION_REPORT.md), [CONTENT_DIVERSITY_AUDIT.md](CONTENT_DIVERSITY_AUDIT.md). CAT 2025 audited question counts remain a partial 27/204: see [PYQ_CENSUS.md](PYQ_CENSUS.md) and [PYQ_ANALYTICS.md](PYQ_ANALYTICS.md).
+
