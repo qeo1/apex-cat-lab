@@ -1,0 +1,908 @@
+{
+  "version": 1,
+  "label": "Research Pilot — original questions; not authentic CAT PYQs",
+  "sources": {
+    "MIT-DM": {
+      "url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/video_galleries/lecture-videos/",
+      "insight": "The course explicitly develops inclusion–exclusion, counting, generating functions, modular arithmetic and linear programming. We adapt the reasoning operators to self-contained CAT-scale arithmetic, not the lecture problems.",
+      "ledger_id": "GLOB-11"
+    },
+    "MIT-PROB": {
+      "url": "https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/pages/syllabus/",
+      "insight": "The reviewed syllabus treats conditional probability, Bayes’ theorem, base rates, expectation and independence as distinct ideas. Pilot probability items state base rates and sampling assumptions explicitly.",
+      "ledger_id": "GLOB-12"
+    },
+    "SEP-MODELS": {
+      "url": "https://plato.stanford.edu/entries/models-science/",
+      "insight": "Idealized models simplify a complex target by selecting relevant features; conclusions depend on those stipulated assumptions. The pilot makes model rules explicit and tests what follows without importing unstated real-world assumptions.",
+      "ledger_id": "GLOB-13"
+    },
+    "NOBEL-CPR": {
+      "url": "https://www.nobelprize.org/uploads/2018/06/advanced-economicsciences2009.pdf",
+      "insight": "A common-pool resource has multiple users whose consumption reduces availability to others; institutional rules affect allocation. The DILR scenario stipulates a finite budget model without claiming its arithmetic predicts real communities.",
+      "ledger_id": "GLOB-08"
+    },
+    "MIT-LP": {
+      "url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/video_galleries/lecture-videos/",
+      "insight": "MIT 18.200 includes linear programming and duality. The pilot uses only feasible-region constraints and small integer enumeration, not advanced algorithms.",
+      "ledger_id": "GLOB-01"
+    },
+    "PURDUE-TOULMIN": {
+      "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/historical_perspectives_on_argumentation/toulmin_argument.html",
+      "insight": "The Toulmin model separates claim, grounds and warrant, with qualifiers and rebuttals. The original VARC passage and distractors test which textual grounds support a claim, and preserve the author’s qualifiers.",
+      "ledger_id": "GLOB-14"
+    },
+    "MIT-GEO": {
+      "url": "https://people.csail.mit.edu/sukhaj/ARMLBook/TrianglesF.pdf",
+      "insight": "The reviewed triangle reference states area as one half base times perpendicular height and gives right-triangle relationships. The question uses the altitude to the hypotenuse as a point-to-line distance; no contest exercise is reused.",
+      "ledger_id": "GLOB-15"
+    }
+  },
+  "benchmarks": {
+    "QA-DIGIT": {
+      "label": "CAT 2025 Slot 1 QA digit/minimum item, GradeScale Q3 (locator conflicts elsewhere)",
+      "url": "https://www.gradscale.in/pyqs/cat/2025/1/view/",
+      "fingerprint": "Predicate filtering, constrained construction, and minimization; GradeScale’s candidate-minimum explanation is wrong though its final divisor count matches."
+    },
+    "QA-DIV": {
+      "label": "CAT 2025 Slot 2 QA Q14, GradeScale",
+      "url": "https://www.gradscale.in/pyqs/cat/2025/2/view/",
+      "fingerprint": "Count exponent tuples satisfying a modular residue condition."
+    },
+    "QA-DIGITRANGE": {
+      "label": "CAT 2025 Slot 3 QA digit-range item, GradeScale Q6 (Scorebuddy Q20)",
+      "url": "https://www.gradscale.in/pyqs/cat/2025/3/view/",
+      "fingerprint": "Digit equations force a finite feasible set, followed by an extremal comparison."
+    },
+    "QA-EXP": {
+      "label": "CAT 2025 Slot 2 QA Q1, GradeScale",
+      "url": "https://www.gradscale.in/pyqs/cat/2025/2/view/",
+      "fingerprint": "Substitute a repeated exponential term and use a quadratic plus root identities."
+    },
+    "QA-AVG": {
+      "label": "CAT 2025 Slot 2 QA Q2, GradeScale",
+      "url": "https://www.gradscale.in/pyqs/cat/2025/2/view/",
+      "fingerprint": "Recover a missing observation from overlapping means and a relation between adjacent data."
+    },
+    "QA-ABS": {
+      "label": "CAT 2025 Slot 2 QA Q3, GradeScale",
+      "url": "https://www.gradscale.in/pyqs/cat/2025/2/view/",
+      "fingerprint": "Piecewise absolute-value inequality with domain reconciliation."
+    },
+    "QA-WEIGHT": {
+      "label": "CAT 2025 Slot 3 QA Q1, GradeScale",
+      "url": "https://www.gradscale.in/pyqs/cat/2025/3/view/",
+      "fingerprint": "Weighted sales/discount model solved from aggregate profit."
+    },
+    "QA-WORK": {
+      "label": "CAT 2025 Slot 3 QA Q2, GradeScale",
+      "url": "https://www.gradscale.in/pyqs/cat/2025/3/view/",
+      "fingerprint": "Heterogeneous rates integrated across a change in workforce."
+    },
+    "DILR-ORDER": {
+      "label": "CAT 2025 Slot 2 DILR Set 1 Q1–Q4, GradeScale",
+      "url": "https://www.gradscale.in/pyqs/cat/2025/2/view/",
+      "fingerprint": "Partial order inferred from threshold tests, including a pair that remains incomparable; source explanation contains one reversed inequality sentence."
+    },
+    "DILR-FLOW": {
+      "label": "CAT 2025 Slot 1 DILR Set 5 Q18–Q22, GradeScale",
+      "url": "https://www.gradscale.in/pyqs/cat/2025/1/view/",
+      "fingerprint": "Shared route-flow occupancy equations, capacity, divisibility, and terminal-segment proportions."
+    },
+    "VARC-S2": {
+      "label": "CAT 2025 Slot 2 VARC Passage 1 Q1–Q4, GradeScale",
+      "url": "https://www.gradscale.in/pyqs/cat/2025/2/view/",
+      "fingerprint": "Purpose of examples, exception selection, metaphor scope, and central-claim inference."
+    },
+    "VARC-S3": {
+      "label": "CAT 2025 Slot 3 VARC Passage 1 Q1–Q4, GradeScale",
+      "url": "https://www.gradscale.in/pyqs/cat/2025/3/view/",
+      "fingerprint": "Historical bridge, weaken-except, causal attribution, and explicitly unmet reform."
+    },
+    "QA-STREAM": {
+      "label": "CAT 2025 Slot 3 QA Q3, GradeScale",
+      "url": "https://www.gradscale.in/pyqs/cat/2025/3/view/",
+      "fingerprint": "Maximize one student group under a linear budget equation and a dominance constraint."
+    },
+    "QA-GEOM": {
+      "label": "CAT 2025 Slot 2 QA Q16, GradeScale",
+      "url": "https://www.gradscale.in/pyqs/cat/2025/2/view/",
+      "fingerprint": "Area ratio in a regular-hexagon construction with a trapezium; benchmark is a geometry/area task."
+    }
+  },
+  "groups": [
+    {
+      "id": "DILR-A",
+      "title": "DILR · Five-day sequence",
+      "context": "Five one-hour public workshops—A, B, C, D and E—must be placed in five consecutive slots, one workshop per slot. B is immediately before D. A is before C. E is after D. A is not in slot 1. These are the complete rules; no other preference or tie-break rule applies."
+    },
+    {
+      "id": "DILR-B",
+      "title": "DILR · Cooling-grant ledger",
+      "context": "A board allocates 90 grant units among three districts (Alder, Birch, Cedar) and three measures (trees, roofs, water). District totals are Alder 26, Birch 31, Cedar 33. Measure totals are trees 24, roofs 30, water 36. Known cells: Alder trees 8 and Alder roofs 10; Birch trees 7 and Birch roofs 11; Cedar water 15. All entries are nonnegative whole grant units. A district total is the sum of its three cells; a measure total is the sum down its column."
+    },
+    {
+      "id": "VARC-P1",
+      "title": "VARC · When a map becomes a decision",
+      "context": "A city’s heat map is often described as if it simply discovers where heat is. In practice, it is assembled from choices: which surfaces to measure, at what hour, at what height, and at what scale to average them. A satellite may register a hot roof at noon while missing the shaded bus stop where people wait at dusk. A block-level average can make two neighbourhoods look alike even when one has tree-lined courtyards and the other has crowded rooms that retain heat overnight.\n\nThis does not make the map useless. A model can reveal a pattern too broad or slow for any one resident to see. When several measures point to the same district, the map can help a city decide where to inspect first. Its value is especially clear when it directs scarce crews toward places that would otherwise receive little attention. The error begins when a first-pass signal is treated as a final verdict.\n\nEvery map also carries a warrant: an assumption that the measured feature is a good stand-in for the condition the city cares about. Surface temperature might stand in for risk to residents; tree canopy might stand in for access to shade. Such links may be reasonable, but neither is identical to the thing it represents. A canopy percentage says little about whether shade falls over a pavement at the hour it is needed.\n\nA sensible response is not to abandon measurement or to demand a perfect map. It is to give the map a defined job. Use it to select sites for closer observation, publish the scale and timing of its measurements, and invite residents to identify conditions the sensors miss. Where the model and local accounts diverge, that disagreement is information about what the model leaves out.\n\nThe practical question is therefore not whether a map is objective or subjective. It is whether its assumptions are visible, whether its limits are matched to its use, and whether the people affected can challenge the categories through which resources are assigned. A map can support fairer decisions, but only if those decisions remain revisable when better evidence arrives."
+    }
+  ],
+  "questions": [
+    {
+      "id": "APX-QA-001",
+      "section": "QA",
+      "group_id": null,
+      "structure": "bounded integer compositions / coefficient counting",
+      "prompt": "How many ordered triples of nonnegative integers (a,b,c) satisfy a+b+c=12, a≤4, b is even, and c≥1?",
+      "choices": [
+        "22",
+        "24",
+        "26",
+        "28"
+      ],
+      "answer": 2,
+      "canonical_answer": "26",
+      "benchmark_id": "QA-DIV",
+      "research_id": "MIT-DM",
+      "novelty": "Replaces prime-exponent residue filtering with a bounded composition and a parity restriction; the sample space is generated by two bounded choices and a slack variable, not divisor factorization.",
+      "hints": [
+        "Set c′=c−1 so the remaining total is 11.",
+        "Write b=2k and sum over feasible k.",
+        "For k=0,…,5, count a from 0 through min(4,11−2k)."
+      ],
+      "solution": "Let c′=c−1≥0. Then a+2k+c′=11 for b=2k. For each k=0,…,5, a can range from 0 to min(4,11−2k), while c′ is then fixed. The counts are 5,5,5,5,4,2, totaling 26.",
+      "independent_solution": "Enumerating k=0,…,5 gives respectively 5,5,5,5,4,2 admissible a-values; each determines one c′, so the total is 26.",
+      "ambiguity_check": "Ordered triples are explicit; zero is permitted for a and b; c≥1 is converted exactly; k range ends at 5. Each counted (a,k) gives one c′, so no overcount.",
+      "expert_method": "Use a one-variable coefficient/generating-function view: x(1−x^5)/(1−x)·(1−x^12)/(1−x²)·1/(1−x), then extract degree 12; for CAT speed, enumerate the six even-b cases.",
+      "cat_relevance": "Tests finite counting and disciplined case enumeration, useful quantitative reasoning; generating functions are a design source, not required knowledge.",
+      "cat_difficulty": "Moderate",
+      "training_difficulty": "Moderate",
+      "status": "approved"
+    },
+    {
+      "id": "APX-QA-002",
+      "section": "QA",
+      "group_id": null,
+      "structure": "Bayesian base-rate update",
+      "prompt": "A screening system flags 80% of members of a group and 10% of nonmembers. In a population, 5% are members. Given that a person is flagged, what is the probability that the person is a member?",
+      "choices": [
+        "8/27",
+        "4/9",
+        "8/19",
+        "1/5"
+      ],
+      "answer": 0,
+      "canonical_answer": "8/27",
+      "benchmark_id": "QA-AVG",
+      "research_id": "MIT-PROB",
+      "novelty": "Changes overlapping-average recovery into a base-rate update. It requires conditioning on the observed flag and retaining both flagged groups in the denominator.",
+      "hints": [
+        "Imagine 1000 people to avoid decimals.",
+        "Count flagged members and flagged nonmembers separately.",
+        "Divide flagged members by all flagged people."
+      ],
+      "solution": "Among 1000 people, 50 are members and 950 are not. The system flags 40 members and 95 nonmembers. Thus P(member|flagged)=40/(40+95)=40/135=8/27.",
+      "independent_solution": "Using Bayes’ rule: (0.8×0.05)/[(0.8×0.05)+(0.1×0.95)]=0.04/0.135=8/27.",
+      "ambiguity_check": "Sensitivity and false-positive rate are defined in the prompt; population prevalence is explicit; assume the stated rates apply uniformly. Denominator includes both flagged categories.",
+      "expert_method": "Use natural frequencies (1000) or Bayes’ formula; natural frequencies make the base-rate contribution visible.",
+      "cat_relevance": "Strengthens conditional reasoning and careful denominator selection; the CAT syllabus status of advanced probability topics is not asserted.",
+      "cat_difficulty": "Moderate",
+      "training_difficulty": "Moderate",
+      "status": "approved"
+    },
+    {
+      "id": "APX-QA-003",
+      "section": "QA",
+      "group_id": null,
+      "structure": "two-constraint integer optimization",
+      "prompt": "A workshop makes stools (s) and benches (b), both nonnegative whole numbers. Each stool uses 2 units of timber and 1 hour; each bench uses 1 unit of timber and 2 hours. At most 14 timber units and 16 hours are available. Profit is 5 credits per stool and 6 per bench. What is the maximum profit?",
+      "choices": [
+        "52",
+        "54",
+        "56",
+        "58"
+      ],
+      "answer": 2,
+      "canonical_answer": "56 credits",
+      "benchmark_id": "QA-STREAM",
+      "research_id": "MIT-LP",
+      "novelty": "Transforms a demographic count-maximization constraint into a two-product integer resource model with two capacities and a profit objective; it does not reuse the CAT item’s population-total and fee equation.",
+      "hints": [
+        "Write 2s+b≤14 and s+2b≤16.",
+        "The continuous boundary intersection is a useful candidate.",
+        "Check nearby integer pairs and axis endpoints."
+      ],
+      "solution": "At the intersection, 2s+b=14 and s+2b=16, giving s=4,b=6 and profit 56. For each integer s=0,…,7, the feasible maximum b is min(14−2s, floor((16−s)/2)); the corresponding best profits are 48, 47, 52, 51, 56, 49, 42, 35. Thus 56 is the integer maximum.",
+      "independent_solution": "Enumerating s=0,…,7 and taking b≤min(14−2s, floor((16−s)/2)) gives best profits 48,47,52,51,56,49,42,35. The maximum is 56 at (4,6).",
+      "ambiguity_check": "Whole-number production and inclusive resource caps are explicit; profit is linear with no setup costs. Enumeration covers every feasible s since 2s≤14.",
+      "expert_method": "Find the intersection of the two binding constraints, then verify all feasible integer s values or inspect nearby integer points plus boundary ranges.",
+      "cat_relevance": "Applies equations, inequalities and integer feasibility to a short optimization model; no advanced linear-programming algorithm is required.",
+      "cat_difficulty": "Moderate",
+      "training_difficulty": "Moderate–Hard",
+      "status": "approved"
+    },
+    {
+      "id": "APX-QA-004",
+      "section": "QA",
+      "group_id": null,
+      "structure": "finite differences / quadratic sequence",
+      "prompt": "A sequence begins 3, 8, 15, 24, 35. If its successive differences continue in the same pattern, what is the next term?",
+      "choices": [
+        "46",
+        "47",
+        "48",
+        "49"
+      ],
+      "answer": 2,
+      "canonical_answer": "48",
+      "benchmark_id": "QA-EXP",
+      "research_id": "MIT-DM",
+      "novelty": "The CAT benchmark compares power-product exponents to find a threshold; this item instead infers a quadratic rule from finite differences, with no product comparison or threshold search.",
+      "hints": [
+        "Compute the first differences.",
+        "Compare successive first differences.",
+        "The first differences rise by 2 each time."
+      ],
+      "solution": "First differences are 5,7,9,11, so the next difference is 13. The next term is 35+13=48.",
+      "independent_solution": "The second differences are constant at 2, so extend the first-difference sequence by 13; 35+13=48.",
+      "ambiguity_check": "A finite prefix alone never determines a unique arbitrary sequence. The prompt explicitly stipulates continuation of the observed successive-difference pattern; this convention is the intended model and is disclosed.",
+      "expert_method": "Inspect first and second differences before guessing a closed form. Here a_n=n²+2n for n=1,…,5, giving a_6=48.",
+      "cat_relevance": "Tests pattern recognition and the need to state a continuation rule; a short warm-up rather than a high-discrimination CAT item.",
+      "cat_difficulty": "Easy",
+      "training_difficulty": "Easy",
+      "status": "approved"
+    },
+    {
+      "id": "APX-QA-005",
+      "section": "QA",
+      "group_id": null,
+      "structure": "Chinese remainder / periodic counting",
+      "prompt": "How many positive integers n≤300 satisfy n≡5 (mod 8) and n≡4 (mod 9)?",
+      "choices": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "canonical_answer": "4",
+      "benchmark_id": "QA-DIV",
+      "research_id": "MIT-DM",
+      "novelty": "Changes a divisor-residue count into simultaneous congruences and a periodic count over an interval; it uses the Chinese-remainder structure rather than exponent parity.",
+      "hints": [
+        "Find one number with remainder 5 on division by 8.",
+        "Add multiples of 8 until its remainder modulo 9 is 4.",
+        "The combined pattern repeats every 72."
+      ],
+      "solution": "13 satisfies both congruences. Since 8 and 9 are coprime, all solutions are n=13+72k. Positive values not exceeding 300 are 13,85,157,229, so there are 4.",
+      "independent_solution": "Directly combine the coprime moduli: the unique class modulo 72 is 13; interval enumeration gives four terms through 229.",
+      "ambiguity_check": "Positive integers and inclusive upper bound are explicit. Modulus 72 is the least common multiple; next term after 229 is 301, outside the bound.",
+      "expert_method": "Use CRT to get one residue class, then count the arithmetic progression with floor((300−13)/72)+1=4.",
+      "cat_relevance": "Connects modular arithmetic with interval counting and boundary checks; the CAT relevance is the underlying number reasoning, not a syllabus guarantee.",
+      "cat_difficulty": "Moderate",
+      "training_difficulty": "Moderate",
+      "status": "approved"
+    },
+    {
+      "id": "APX-QA-006",
+      "section": "QA",
+      "group_id": null,
+      "structure": "inclusion–exclusion / exactly-one count",
+      "prompt": "In a group of 48 applicants, 27 know SQL, 22 know Python, and 15 know both. How many know exactly one of the two?",
+      "choices": [
+        "17",
+        "19",
+        "22",
+        "34"
+      ],
+      "answer": 1,
+      "canonical_answer": "19 applicants",
+      "benchmark_id": "QA-DIV",
+      "research_id": "MIT-DM",
+      "novelty": "Uses set overlap to count the symmetric difference, unlike counting divisors or filtering exponent tuples.",
+      "hints": [
+        "Separate SQL-only from Python-only.",
+        "Subtract the overlap from each group size.",
+        "Add 27−15 and 22−15."
+      ],
+      "solution": "SQL only: 27−15=12. Python only: 22−15=7. Exactly one: 12+7=19.",
+      "independent_solution": "The symmetric-difference size is |S|+|P|−2|S∩P|=27+22−30=19.",
+      "ambiguity_check": "‘Exactly one’ excludes the 15 who know both; applicants are counted once. No unknown third category affects the answer.",
+      "expert_method": "Use inclusion–exclusion for the union, or directly subtract the intersection twice from the sum of set sizes.",
+      "cat_relevance": "Core set-counting structure useful in QA and DILR; concise arithmetic, moderate conceptual care.",
+      "cat_difficulty": "Easy",
+      "training_difficulty": "Easy–Moderate",
+      "status": "approved"
+    },
+    {
+      "id": "APX-QA-007",
+      "section": "QA",
+      "group_id": null,
+      "structure": "piecewise work-rate integration",
+      "prompt": "Machine A completes a job alone in 12 hours and machine B in 18 hours. A works alone for the first 2 hours; then both machines work together until the job is done. How long does the entire job take?",
+      "choices": [
+        "7 hours",
+        "8 hours",
+        "9 hours",
+        "10 hours"
+      ],
+      "answer": 1,
+      "canonical_answer": "8 hours",
+      "benchmark_id": "QA-WORK",
+      "research_id": "MIT-LP",
+      "novelty": "Reverses the CAT benchmark’s phase structure: the fast contributor starts alone and a second rate joins later, rather than a fast worker leaving and replacements being added.",
+      "hints": [
+        "Compute A’s completed fraction in 2 hours.",
+        "Find the combined hourly rate.",
+        "Divide the remaining fraction by the combined rate, then add 2 hours."
+      ],
+      "solution": "A completes 2/12=1/6. The remaining work is 5/6. Together the rate is 1/12+1/18=5/36 job/hour, so remaining time is (5/6)/(5/36)=6 hours. Total time is 8 hours.",
+      "independent_solution": "A has completed 1/6 of the job after 2 hours. The remaining 5/6 at 5/36 per hour takes 6 hours; total elapsed time is 8 hours.",
+      "ambiguity_check": "Rates are constant and work is additive as stipulated. ‘Until done’ includes both machines’ full combined rate; no setup or interruption is implied.",
+      "expert_method": "Normalize to one job, account for the initial phase, and apply the combined rate only to the remainder.",
+      "cat_relevance": "Directly practices work-rate modeling and phase changes, a common quantitative reasoning skill.",
+      "cat_difficulty": "Easy–Moderate",
+      "training_difficulty": "Moderate",
+      "status": "approved"
+    },
+    {
+      "id": "APX-QA-008",
+      "section": "QA",
+      "group_id": null,
+      "structure": "weighted mean / solve unknown group size",
+      "prompt": "Group A has 12 people with an average score of 70. Group B averages 85. Their combined average is 79. How many people are in Group B?",
+      "choices": [
+        "15",
+        "18",
+        "20",
+        "24"
+      ],
+      "answer": 1,
+      "canonical_answer": "18 people",
+      "benchmark_id": "QA-AVG",
+      "research_id": "MIT-PROB",
+      "novelty": "Moves from a sequence of overlapping temporal averages to a static weighted-mean equation where the unknown is a group size.",
+      "hints": [
+        "Translate each average into a total score.",
+        "Let Group B have n people.",
+        "Set (840+85n)/(12+n)=79."
+      ],
+      "solution": "Let n be Group B’s size. (840+85n)/(12+n)=79, so 840+85n=948+79n; 6n=108 and n=18.",
+      "independent_solution": "The combined mean is 9 points above A’s mean and 6 below B’s mean, so sizes are in ratio 6:9=2:3. If A’s 12 correspond to 2 parts, B has 18.",
+      "ambiguity_check": "Group averages are exact; people are indivisible. The equation yields a positive integer and substitution gives 79.",
+      "expert_method": "Use alligation: group-size ratio is the opposite-distance ratio from the combined mean; verify with totals.",
+      "cat_relevance": "Builds weighted-average intuition and a fast ratio method; structurally different from missing-day reconstruction.",
+      "cat_difficulty": "Easy–Moderate",
+      "training_difficulty": "Moderate",
+      "status": "approved"
+    },
+    {
+      "id": "APX-QA-009",
+      "section": "QA",
+      "group_id": null,
+      "structure": "right-triangle altitude as point-to-line distance",
+      "prompt": "A right triangle has perpendicular sides of lengths 6 and 8. A circle is centered at the right-angle vertex and tangent to the line containing the hypotenuse. What is the circle’s area?",
+      "choices": [
+        "144π/25",
+        "288π/25",
+        "576π/25",
+        "576π/5"
+      ],
+      "answer": 2,
+      "canonical_answer": "576π/25",
+      "benchmark_id": "QA-GEOM",
+      "research_id": "MIT-GEO",
+      "novelty": "The CAT benchmark compares areas in a regular-hexagon/trapezium construction. This item uses a perpendicular altitude as the radius of a circle centered at a vertex, changing both the geometric representation and target quantity.",
+      "hints": [
+        "Find the hypotenuse using the Pythagorean theorem.",
+        "Use the triangle’s area to get the perpendicular height to that hypotenuse.",
+        "That height is the circle’s radius; square it and multiply by π."
+      ],
+      "solution": "The hypotenuse is 10. Triangle area is (1/2)(6)(8)=24. If h is the altitude to the hypotenuse, (1/2)(10)h=24, so h=24/5. The circle’s radius is the distance from its center to the tangent line, hence r=24/5. Its area is πr²=576π/25.",
+      "independent_solution": "The perpendicular distance from the right-angle vertex to the hypotenuse is ab/c=(6·8)/10=24/5. A circle tangent to that line and centered at the vertex has this radius; its area is 576π/25.",
+      "ambiguity_check": "The prompt says tangent to the line containing the hypotenuse, so the radius is the unique perpendicular distance to that line; no assumption that the full circle lies inside the triangle is needed.",
+      "expert_method": "Use the right-triangle altitude formula h=ab/c directly, then apply the circle-area formula.",
+      "cat_relevance": "Combines Pythagorean geometry, triangle area and perpendicular distance; it is a geometry reasoning exercise, not an exam-frequency prediction.",
+      "cat_difficulty": "Moderate",
+      "training_difficulty": "Moderate",
+      "status": "approved"
+    },
+    {
+      "id": "APX-QA-010",
+      "section": "QA",
+      "group_id": null,
+      "structure": "conditional probability by parity classes",
+      "prompt": "Two distinct numbers are selected uniformly at random from {1,2,3,4,5,6,7,8}. Given that their sum is even, what is the probability that both selected numbers are prime?",
+      "choices": [
+        "1/5",
+        "1/4",
+        "1/3",
+        "3/7"
+      ],
+      "answer": 1,
+      "canonical_answer": "1/4",
+      "benchmark_id": "QA-DIV",
+      "research_id": "MIT-PROB",
+      "novelty": "Uses conditioning to restrict the sample space to same-parity unordered pairs, then classifies prime pairs; unlike the CAT divisor item, candidates are sampled pairs rather than exponent tuples.",
+      "hints": [
+        "An even sum means both numbers have the same parity.",
+        "Count all same-parity pairs among four evens and four odds.",
+        "Among primes {2,3,5,7}, count same-parity distinct pairs."
+      ],
+      "solution": "There are C(4,2)+C(4,2)=12 same-parity pairs. Prime pairs with even sum must be two odd primes; among 3,5,7 there are C(3,2)=3. Probability is 3/12=1/4.",
+      "independent_solution": "The condition leaves 12 equiprobable pairs. Exactly the three pairs from {3,5,7} qualify, giving 1/4.",
+      "ambiguity_check": "Selection is uniform without replacement and unordered; conditioning event has 12 outcomes. The pair (2,2) is excluded because selections are distinct.",
+      "expert_method": "Condition first: shrink the denominator to outcomes with even sum, then count qualifying prime pairs.",
+      "cat_relevance": "Combines counting and conditional probability with an explicit sample space; CAT-style reasoning relevance is assessed without asserting official topic frequency.",
+      "cat_difficulty": "Moderate",
+      "training_difficulty": "Moderate",
+      "status": "approved"
+    },
+    {
+      "id": "APX-DILR-011",
+      "section": "DILR",
+      "group_id": "DILR-A",
+      "structure": "permutation with adjacency block, precedence and case enumeration",
+      "prompt": "How many schedules satisfy all the workshop rules?",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "canonical_answer": "3 schedules",
+      "benchmark_id": "DILR-ORDER",
+      "research_id": "MIT-DM",
+      "novelty": "The CAT benchmark orders hidden size thresholds and leaves an incomparable pair. This set instead orders five named events with a forced adjacent block and a prohibited first position; it enumerates complete permutations.",
+      "hints": [
+        "Treat B–D as one block.",
+        "Since E is after D, E must follow the block.",
+        "Place A before C, with A not first; enumerate remaining positions."
+      ],
+      "solution": "Because B immediately precedes D and E follows D, B,D occupy slots 1–2 or 2–3. If they occupy 2–3, E must be 4 or 5; the remaining A,C must fit before C, but A cannot be slot1 and the only feasible order is A,C,E after the block? Check: slots 1,4,5 would require A=4,C=5,E=1, violating E after D, so none. If B,D occupy 1–2, E must be after slot2. A,C fill the remaining positions in increasing order, with A not slot1. The three valid schedules are B,D,A,C,E; B,D,A,E,C; B,D,E,A,C.",
+      "independent_solution": "Enumerating the five permutations that contain adjacent B,D and require E later leaves the three displayed schedules; each has A<C and A≠1.",
+      "ambiguity_check": "Slots are numbered 1–5; ‘immediately before’ is adjacency; events are distinct. Exhaustive permutation check yields exactly three schedules.",
+      "expert_method": "Collapse B,D into a block, use E>D to restrict its placement, then enumerate A/C positions and apply A≠1.",
+      "cat_relevance": "A full shared-constraint scheduling set trains order representation, adjacency blocks and case elimination.",
+      "cat_difficulty": "Moderate",
+      "training_difficulty": "Moderate–Hard",
+      "status": "approved"
+    },
+    {
+      "id": "APX-DILR-012",
+      "section": "DILR",
+      "group_id": "DILR-A",
+      "structure": "derive a forced endpoint from shared permutation constraints",
+      "prompt": "Which slot must contain workshop B?",
+      "choices": [
+        "Slot 1",
+        "Slot 2",
+        "Slot 3",
+        "It varies"
+      ],
+      "answer": 0,
+      "canonical_answer": "Slot 1",
+      "benchmark_id": "DILR-ORDER",
+      "research_id": "MIT-DM",
+      "novelty": "Tests a forced consequence across all valid schedules rather than another pairwise size relation.",
+      "hints": [
+        "B immediately precedes D, and E is after D.",
+        "So B cannot start later than slot 2.",
+        "If B were in slot 2, check whether A<C can fit without A being first."
+      ],
+      "solution": "If B were in slot 2, D would be 3 and E must be 4 or 5; A and C would need slots 1 and the other remaining position, but A cannot be slot1. Thus B=1 in every valid schedule.",
+      "independent_solution": "The exhaustive schedules are B,D,A,C,E; B,D,A,E,C; B,D,E,A,C. B is slot 1 in all three.",
+      "ambiguity_check": "The answer is invariant across all three schedules; B is a named distinct event.",
+      "expert_method": "Use the blocking chain B-D-E to force the initial segment, then test the only alternate start against A<C and A≠1.",
+      "cat_relevance": "Tests necessary conclusions from a shared logic model.",
+      "cat_difficulty": "Moderate",
+      "training_difficulty": "Moderate",
+      "status": "approved"
+    },
+    {
+      "id": "APX-DILR-013",
+      "section": "DILR",
+      "group_id": "DILR-A",
+      "structure": "conditional completion of shared schedule",
+      "prompt": "If workshop C is in slot 4, which workshop is in slot 5?",
+      "choices": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "answer": 3,
+      "canonical_answer": "E",
+      "benchmark_id": "DILR-ORDER",
+      "research_id": "MIT-DM",
+      "novelty": "Adds a conditional that selects one complete model from the shared set rather than copying the benchmark’s threshold-order inference.",
+      "hints": [
+        "Use the schedules that place C in slot 4.",
+        "A must be earlier than C and cannot be first.",
+        "Check the remaining placements against B-D adjacency and E-after-D."
+      ],
+      "solution": "Only B,D,A,C,E has C in slot 4. Therefore E is in slot 5.",
+      "independent_solution": "Filtering the three valid schedules by C=4 leaves one: B,D,A,C,E; its final event is E.",
+      "ambiguity_check": "The antecedent selects exactly one valid schedule, so the requested event is unique.",
+      "expert_method": "Solve the base set once, then filter its solution list under the added condition.",
+      "cat_relevance": "Practices conditional case filtering within a common DILR set.",
+      "cat_difficulty": "Easy–Moderate",
+      "training_difficulty": "Moderate",
+      "status": "approved"
+    },
+    {
+      "id": "APX-DILR-014",
+      "section": "DILR",
+      "group_id": "DILR-A",
+      "structure": "conditional chain completion",
+      "prompt": "If E is in slot 3, who is in slot 4?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "canonical_answer": "A",
+      "benchmark_id": "DILR-ORDER",
+      "research_id": "MIT-DM",
+      "novelty": "Selects a different model branch and asks for the immediate remaining position, extending the set’s common schedule rather than duplicating any benchmark item.",
+      "hints": [
+        "E in slot 3 means B,D must occupy slots 1–2.",
+        "A and C remain in slots 4 and 5.",
+        "Apply A before C."
+      ],
+      "solution": "With E in slot3, B,D must be slots1,2; A and C fill slots4,5 in that order. Slot4 is A.",
+      "independent_solution": "The only matching schedule is B,D,E,A,C; slot4 is A.",
+      "ambiguity_check": "All rules leave a single schedule under E=3; event labels are distinct.",
+      "expert_method": "Fix the conditional placement, propagate the adjacency block, then apply the final precedence relation.",
+      "cat_relevance": "Builds efficient constraint propagation and conditional inference.",
+      "cat_difficulty": "Easy–Moderate",
+      "training_difficulty": "Moderate",
+      "status": "approved"
+    },
+    {
+      "id": "APX-DILR-015",
+      "section": "DILR",
+      "group_id": "DILR-A",
+      "structure": "extremal position over all valid schedules",
+      "prompt": "What is the latest slot in which workshop A can occur?",
+      "choices": [
+        "Slot 2",
+        "Slot 3",
+        "Slot 4",
+        "Slot 5"
+      ],
+      "answer": 2,
+      "canonical_answer": "Slot 4",
+      "benchmark_id": "DILR-ORDER",
+      "research_id": "MIT-DM",
+      "novelty": "Asks for an extremal position across the full feasible schedule set, whereas the benchmark’s questions concern a partial order over physical sizes.",
+      "hints": [
+        "A must precede C, so A cannot be slot 5.",
+        "Try placing A in slot 4 and C in slot 5.",
+        "Check whether B,D,E can occupy the first three slots."
+      ],
+      "solution": "A can be slot4 in B,D,E,A,C, and cannot be slot5 because C must follow A. Hence the latest possible slot is 4.",
+      "independent_solution": "Enumerated schedules place A in slot3,3,4; the maximum is slot4.",
+      "ambiguity_check": "‘Latest’ means maximum numbered slot attained by A among schedules satisfying all base rules; a witness schedule exists.",
+      "expert_method": "Establish an upper bound from A<C, then produce a feasible schedule attaining it.",
+      "cat_relevance": "Tests extremal reasoning with a feasibility witness.",
+      "cat_difficulty": "Moderate",
+      "training_difficulty": "Moderate",
+      "status": "approved"
+    },
+    {
+      "id": "APX-DILR-016",
+      "section": "DILR",
+      "group_id": "DILR-B",
+      "structure": "matrix completion from row and column margins",
+      "prompt": "How many grant units are allocated to water in Alder?",
+      "choices": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "answer": 1,
+      "canonical_answer": "8 units",
+      "benchmark_id": "DILR-FLOW",
+      "research_id": "NOBEL-CPR",
+      "novelty": "Uses a 3×3 margin-constrained matrix, not a sequential route-flow network. Resource-allocation context is a stipulated model; no behavioral claim is imported.",
+      "hints": [
+        "Alder’s row total is 26.",
+        "Subtract its known trees and roofs allocations.",
+        "26−8−10 gives the water cell."
+      ],
+      "solution": "Alder’s water allocation is 26−8−10=8.",
+      "independent_solution": "The row sum forces Alder-water=8.",
+      "ambiguity_check": "Each row/column total and given cell are explicit; all values are whole nonnegative units.",
+      "expert_method": "Use row margins first, then validate the completed table against column margins.",
+      "cat_relevance": "Practices tabular DILR, balancing totals, and checking coupled constraints.",
+      "cat_difficulty": "Easy",
+      "training_difficulty": "Easy–Moderate",
+      "status": "approved"
+    },
+    {
+      "id": "APX-DILR-017",
+      "section": "DILR",
+      "group_id": "DILR-B",
+      "structure": "row-margin deduction",
+      "prompt": "How many water units are allocated to Birch?",
+      "choices": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "answer": 2,
+      "canonical_answer": "13 units",
+      "benchmark_id": "DILR-FLOW",
+      "research_id": "MIT-DM",
+      "novelty": "Requires using a district margin after carrying source totals into a different table model; it is not a path occupancy or bottleneck computation.",
+      "hints": [
+        "Birch’s trees and roofs cells are given.",
+        "Use the Birch row total.",
+        "31−7−11 gives the remaining cell."
+      ],
+      "solution": "Birch-water=31−7−11=13.",
+      "independent_solution": "The Birch row sums to 31, so its final cell is 13.",
+      "ambiguity_check": "No other interpretation of a district total is possible because the prompt defines it as the three cells’ sum.",
+      "expert_method": "Complete row cells directly, then use column checks to detect transcription errors.",
+      "cat_relevance": "Tests reading and reconciling a shared data table.",
+      "cat_difficulty": "Easy",
+      "training_difficulty": "Easy",
+      "status": "approved"
+    },
+    {
+      "id": "APX-DILR-018",
+      "section": "DILR",
+      "group_id": "DILR-B",
+      "structure": "column-margin deduction",
+      "prompt": "How many tree units are allocated to Cedar?",
+      "choices": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "answer": 2,
+      "canonical_answer": "9 units",
+      "benchmark_id": "DILR-FLOW",
+      "research_id": "MIT-DM",
+      "novelty": "Uses the column margin after determining two other row cells, a column-wise inference distinct from the train-set route equations.",
+      "hints": [
+        "The tree column total is 24.",
+        "Alder and Birch contribute 8 and 7.",
+        "The remainder belongs to Cedar."
+      ],
+      "solution": "Cedar-trees=24−8−7=9.",
+      "independent_solution": "Subtract the two known tree allocations from 24; the remaining 9 is Cedar’s.",
+      "ambiguity_check": "The three districts exhaust the tree total, so no unlisted allocation exists.",
+      "expert_method": "Track each margin once and cross-check row/column consistency.",
+      "cat_relevance": "Builds table-completion accuracy under linked totals.",
+      "cat_difficulty": "Easy",
+      "training_difficulty": "Easy",
+      "status": "approved"
+    },
+    {
+      "id": "APX-DILR-019",
+      "section": "DILR",
+      "group_id": "DILR-B",
+      "structure": "compare column allocations",
+      "prompt": "Which district receives the most water units?",
+      "choices": [
+        "Alder",
+        "Birch",
+        "Cedar",
+        "Alder and Birch tie"
+      ],
+      "answer": 2,
+      "canonical_answer": "Cedar",
+      "benchmark_id": "DILR-FLOW",
+      "research_id": "MIT-DM",
+      "novelty": "Requires assembling all three water cells from different margins, then comparing values rather than solving a single local equation.",
+      "hints": [
+        "Find Alder-water and Birch-water first.",
+        "Cedar-water is given.",
+        "Compare 8, 13 and 15."
+      ],
+      "solution": "Water allocations are Alder 8, Birch 13, Cedar 15. Cedar receives the most.",
+      "independent_solution": "The completed water column is (8,13,15); its maximum is Cedar’s 15.",
+      "ambiguity_check": "All three districts are included and values are comparable because the common unit is grant units.",
+      "expert_method": "Complete the relevant column only; avoid rebuilding unrelated cells.",
+      "cat_relevance": "Tests selecting only the data needed from a shared set and comparing quantities.",
+      "cat_difficulty": "Easy–Moderate",
+      "training_difficulty": "Moderate",
+      "status": "approved"
+    },
+    {
+      "id": "APX-DILR-020",
+      "section": "DILR",
+      "group_id": "DILR-B",
+      "structure": "column-total share / ratio interpretation",
+      "prompt": "What percentage of all grant units is allocated to water?",
+      "choices": [
+        "30%",
+        "36%",
+        "40%",
+        "45%"
+      ],
+      "answer": 2,
+      "canonical_answer": "40%",
+      "benchmark_id": "DILR-FLOW",
+      "research_id": "NOBEL-CPR",
+      "novelty": "Uses the source-column total as a share of an overall budget; the CAT train benchmark instead chains route occupancy and a fractional boarding condition.",
+      "hints": [
+        "The water-column total is 36.",
+        "The total budget is 90.",
+        "Compute 36/90 as a percentage."
+      ],
+      "solution": "Water receives 36 of 90 total units. 36/90=0.4=40%.",
+      "independent_solution": "The defined measure total is 36 and all allocations sum to 90; the ratio is 2/5, or 40%.",
+      "ambiguity_check": "All grants are partitioned into the three measures and total 90; the denominator is stated and also equals the sum of district totals.",
+      "expert_method": "Use a column margin over the grand total; cross-check 26+31+33=90.",
+      "cat_relevance": "Combines table reading with ratio/percentage interpretation within a common DILR scenario.",
+      "cat_difficulty": "Easy",
+      "training_difficulty": "Easy–Moderate",
+      "status": "approved"
+    },
+    {
+      "id": "APX-VARC-021",
+      "section": "VARC",
+      "group_id": "VARC-P1",
+      "structure": "main idea / qualified thesis",
+      "prompt": "Which statement best captures the passage’s central argument?",
+      "choices": [
+        "Heat maps should replace residents’ reports because instruments are more objective.",
+        "Heat maps can guide attention, but their assumptions and limits must remain visible and revisable.",
+        "Satellite readings are too imprecise to inform city policy.",
+        "A city should distribute resources equally because maps cannot measure need."
+      ],
+      "answer": 1,
+      "canonical_answer": "B",
+      "benchmark_id": "VARC-S2",
+      "research_id": "PURDUE-TOULMIN",
+      "novelty": "Original passage built around claim, grounds and warrant; asks for the qualified thesis rather than an inference about a reproduced passage’s claim.",
+      "hints": [
+        "Notice that the author defends a limited use for maps.",
+        "The final paragraph states conditions for responsible use.",
+        "Reject options that turn a qualified argument into total acceptance or rejection."
+      ],
+      "solution": "B matches both sides: maps help direct attention, but decisions should expose assumptions, match limits to use, and remain revisable. A, C and D overstate or contradict the passage.",
+      "independent_solution": "The passage calls maps useful as first-pass signals but rejects final-verdict use; only B preserves this qualification.",
+      "ambiguity_check": "The passage explicitly supports limited use and revisability in paragraphs 2, 4 and 5; alternatives each make a claim the text rejects.",
+      "expert_method": "Identify claim plus qualifier, then test each option against both rather than matching one attractive sentence.",
+      "cat_relevance": "Main-idea comprehension and scope control, central VARC skills.",
+      "cat_difficulty": "Moderate",
+      "training_difficulty": "Moderate",
+      "status": "approved"
+    },
+    {
+      "id": "APX-VARC-022",
+      "section": "VARC",
+      "group_id": "VARC-P1",
+      "structure": "role of evidence / contrast",
+      "prompt": "Why does the author contrast a hot roof at noon with a shaded bus stop at dusk?",
+      "choices": [
+        "To show that satellites cannot measure surface temperature.",
+        "To illustrate that measurement timing and location can miss the conditions relevant to people.",
+        "To argue that bus stops are always cooler than roofs.",
+        "To prove that residents systematically misremember heat."
+      ],
+      "answer": 1,
+      "canonical_answer": "B",
+      "benchmark_id": "VARC-S2",
+      "research_id": "PURDUE-TOULMIN",
+      "novelty": "Tests the function of contrasting examples as grounds for the warrant, not a list of passage examples serving an odd-one-out task.",
+      "hints": [
+        "The contrast appears in the paragraph about choices used to assemble a map.",
+        "Focus on time, place and whose exposure matters.",
+        "The example illustrates a limitation, not a universal temperature claim."
+      ],
+      "solution": "B: the contrast shows that a measurement at one surface and hour may not represent where and when people experience heat. The other options add claims absent from the passage.",
+      "independent_solution": "The opening paragraph says maps choose surfaces, times, heights and scales; the roof/bus-stop contrast concretizes that point.",
+      "ambiguity_check": "Both example locations and times are specified; no claim about which is universally hotter is needed.",
+      "expert_method": "Ask what abstract claim the example makes concrete, then reject explanations stronger than the text.",
+      "cat_relevance": "Tests example-purpose comprehension and evidence-to-claim linking.",
+      "cat_difficulty": "Easy–Moderate",
+      "training_difficulty": "Moderate",
+      "status": "approved"
+    },
+    {
+      "id": "APX-VARC-023",
+      "section": "VARC",
+      "group_id": "VARC-P1",
+      "structure": "inference / model limitation",
+      "prompt": "Which inference is best supported by the passage?",
+      "choices": [
+        "Two neighbourhoods with similar block averages necessarily expose residents to the same heat risk.",
+        "A canopy percentage can fail to show whether useful shade reaches a pavement when needed.",
+        "Resident reports are more accurate than every sensor measurement.",
+        "A map with more measurements is automatically fairer."
+      ],
+      "answer": 1,
+      "canonical_answer": "B",
+      "benchmark_id": "VARC-S3",
+      "research_id": "SEP-MODELS",
+      "novelty": "Tests a bounded inference about what a proxy omits; it avoids the historical-causal and policy-reform questions in the CAT benchmark.",
+      "hints": [
+        "Look for the sentence that says canopy is not identical to access to shade.",
+        "An inference may be weaker than a universal claim.",
+        "Avoid ‘necessarily’ and ‘automatically’ unless the passage supports them."
+      ],
+      "solution": "B restates the passage’s explicit distinction between canopy percentage and shade at the needed place/time. A, C and D are universal claims unsupported by the text.",
+      "independent_solution": "Paragraph 3 says canopy percentage says little about where shade falls at the needed hour, directly supporting B.",
+      "ambiguity_check": "B is near-explicit evidence; the distractors introduce universal comparisons or automatic causal effects absent from the passage.",
+      "expert_method": "Prefer the narrowest conclusion directly licensed by the author’s stated proxy limitation.",
+      "cat_relevance": "Inference with qualifiers and proxy/target distinction; relevant to careful RC reading.",
+      "cat_difficulty": "Moderate",
+      "training_difficulty": "Moderate",
+      "status": "approved"
+    },
+    {
+      "id": "APX-VARC-024",
+      "section": "VARC",
+      "group_id": "VARC-P1",
+      "structure": "identify implicit warrant",
+      "prompt": "Which warrant best supports the claim that a heat map can guide where inspection crews go first?",
+      "choices": [
+        "A first-pass map can help identify places worth checking more closely.",
+        "Every mapped district has identical population density.",
+        "Local accounts are always free of bias.",
+        "A city’s budget should be allocated in proportion to satellite temperature alone."
+      ],
+      "answer": 0,
+      "canonical_answer": "A",
+      "benchmark_id": "VARC-S2",
+      "research_id": "PURDUE-TOULMIN",
+      "novelty": "Makes the warrant in a policy argument explicit, drawing on Toulmin’s distinction between grounds and the bridge from grounds to claim.",
+      "hints": [
+        "The claim is that a map can guide closer inspection.",
+        "A warrant is the bridge from the measured pattern to that limited action.",
+        "Choose the assumption that makes prioritizing follow-up reasonable without making the map conclusive."
+      ],
+      "solution": "A is the limited bridge: a first-pass signal can identify places worth checking more closely. The other choices are neither stated nor needed and conflict with the passage’s cautions.",
+      "independent_solution": "The passage assigns the map a screening role—select sites for closer observation—not a final funding role. A states that warrant.",
+      "ambiguity_check": "The stem asks only for the bridge to initial inspection. A alone supports that narrow claim; other options are unsupported or contradict the text.",
+      "expert_method": "Separate the stated evidence from the unstated bridge, and select the weakest assumption sufficient for the inference.",
+      "cat_relevance": "Argument structure and assumption recognition, relevant to RC and critical reasoning.",
+      "cat_difficulty": "Moderate–Hard",
+      "training_difficulty": "Hard",
+      "status": "approved"
+    },
+    {
+      "id": "APX-VARC-025",
+      "section": "VARC",
+      "group_id": "VARC-P1",
+      "structure": "application / resolve evidence conflict",
+      "prompt": "A district’s satellite map shows moderate heat, while residents report dangerous indoor heat overnight. According to the author, what is the best next step?",
+      "choices": [
+        "Dismiss the reports because the map is standardized.",
+        "Increase the map’s color contrast and treat the revised score as final.",
+        "Use the disagreement to guide closer observation and examine what the model omits.",
+        "Allocate no resources until a perfect map can be built."
+      ],
+      "answer": 2,
+      "canonical_answer": "C",
+      "benchmark_id": "VARC-S3",
+      "research_id": "SEP-MODELS",
+      "novelty": "Applies the passage’s model-limit principle to a new case; unlike the PYQ’s historical policy passage, the task is to draw an action consistent with a qualified model claim.",
+      "hints": [
+        "The author says divergence between model and local accounts is information.",
+        "The map has a first-pass role, not a final-verdict role.",
+        "Choose a revisable follow-up rather than dismissal or paralysis."
+      ],
+      "solution": "C follows paragraph 4: use the map to select sites for closer observation and treat model/account disagreement as evidence about omissions. A and B treat it as final; D demands an unattainable perfect map.",
+      "independent_solution": "The passage explicitly advises closer observation and says divergence reveals what the model leaves out, so C is the only consistent action.",
+      "ambiguity_check": "The scenario maps directly to the stated divergence case; only C matches both the limited map role and the prescribed response.",
+      "expert_method": "Apply the author’s stated decision rule to the new facts; preserve the model’s provisional status.",
+      "cat_relevance": "Tests application of an argument to a new scenario while preserving scope and qualifications.",
+      "cat_difficulty": "Moderate",
+      "training_difficulty": "Moderate–Hard",
+      "status": "approved"
+    }
+  ]
+}
+
