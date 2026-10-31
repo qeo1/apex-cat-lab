@@ -1,0 +1,69 @@
+{
+  "passages": [
+    {
+      "id": "CAT-2023-S1-VARC-P1",
+      "paper_id": "CAT-2023-S1-VARC",
+      "question_ids": [
+        "CAT-2023-S1-VARC-Q1",
+        "CAT-2023-S1-VARC-Q2",
+        "CAT-2023-S1-VARC-Q3",
+        "CAT-2023-S1-VARC-Q4"
+      ],
+      "source_ids": [
+        "GS23-S1"
+      ],
+      "source_url": "https://www.gradscale.in/pyqs/cat/2023/1/view/",
+      "completeness": "partial; source text contains omissions/ellipses; not a full passage transcript",
+      "rights_status": "not redistributed"
+    },
+    {
+      "id": "CAT-2024-S1-VARC-P1",
+      "paper_id": "CAT-2024-S1-VARC",
+      "question_ids": [
+        "CAT-2024-S1-VARC-Q1",
+        "CAT-2024-S1-VARC-Q2",
+        "CAT-2024-S1-VARC-Q3",
+        "CAT-2024-S1-VARC-Q4"
+      ],
+      "source_ids": [
+        "GS24-S1"
+      ],
+      "source_url": "https://www.gradscale.in/pyqs/cat/2024/1/view/",
+      "completeness": "partial; source text contains omissions/ellipses; not a full passage transcript",
+      "rights_status": "not redistributed"
+    },
+    {
+      "id": "CAT-2025-S2-VARC-P1",
+      "paper_id": "CAT-2025-S2-VARC",
+      "question_ids": [
+        "CAT-2025-S2-VARC-Q1",
+        "CAT-2025-S2-VARC-Q2",
+        "CAT-2025-S2-VARC-Q3",
+        "CAT-2025-S2-VARC-Q4"
+      ],
+      "source_ids": [
+        "GS25-S2"
+      ],
+      "source_url": "https://www.gradscale.in/pyqs/cat/2025/2/view/",
+      "completeness": "partial; source text contains omissions/ellipses; not a full passage transcript",
+      "rights_status": "not redistributed"
+    },
+    {
+      "id": "CAT-2025-S3-VARC-P1",
+      "paper_id": "CAT-2025-S3-VARC",
+      "question_ids": [
+        "CAT-2025-S3-VARC-Q1",
+        "CAT-2025-S3-VARC-Q2",
+        "CAT-2025-S3-VARC-Q3",
+        "CAT-2025-S3-VARC-Q4"
+      ],
+      "source_ids": [
+        "GS25-S3"
+      ],
+      "source_url": "https://www.gradscale.in/pyqs/cat/2025/3/view/",
+      "completeness": "partial; source text contains omissions/ellipses; not a full passage transcript",
+      "rights_status": "not redistributed"
+    }
+  ]
+}
+

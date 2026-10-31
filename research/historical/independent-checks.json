@@ -1,0 +1,58 @@
+{
+  "snapshot": "2026-10-31",
+  "method": "Independent deterministic arithmetic and exhaustive finite-state checks against source-retrieved prompts; not official-key corroboration.",
+  "checks": [
+    {
+      "id": "CAT-2017-S1-QA-Q1",
+      "result": "pass",
+      "answer": "20%",
+      "method": "Solve normalized future-age equation."
+    },
+    {
+      "id": "CAT-2023-S1-QA-Q1",
+      "result": "pass",
+      "answer": "15",
+      "method": "Prime exponent valuation minima in both divisibility directions."
+    },
+    {
+      "id": "CAT-2024-S1-QA-Q1",
+      "result": "pass",
+      "answer": "540",
+      "method": "Inclusion-exclusion count 3^6-3*2^6+3."
+    },
+    {
+      "set_id": "CAT-2023-S1-DILR-SET1",
+      "result": "pass",
+      "raw_states_tested": 1572864,
+      "feasible_occupancy_patterns": 2,
+      "feasible_occupancy_and_parking_assignments": 64,
+      "answers": {
+        "Q1": "3",
+        "Q2": "B1",
+        "Q3": "Either 2 or 3",
+        "Q4": "21",
+        "Q5": "E1"
+      },
+      "method": "Enumerate 2^12 occupancy patterns, all 2^6 possible Block XX parking assignments, and each of six possible single Block YY parking locations; apply the grid road adjacency, same-block neighbor, vacancy, occupancy and price constraints."
+    },
+    {
+      "set_id": "CAT-2024-S1-DILR-SET1",
+      "result": "pass",
+      "labelled_solutions": 2,
+      "answers": {
+        "Q1": "8",
+        "Q2": "4",
+        "Q3": "5",
+        "Q4": "3",
+        "Q5": "5"
+      },
+      "method": "Enumerate all 3-team group partitions and perfect matchings by round under per-pair match multiplicity, anchored pair, and identical-round constraints. Two solutions differ only by group-label exchange; schedule and answers are invariant."
+    }
+  ],
+  "limitations": [
+    "All examination sources are Grade C reproductions.",
+    "No official response-sheet answer key was located.",
+    "This check covers only the listed items and does not establish full paper completeness or psychometric difficulty."
+  ]
+}
+

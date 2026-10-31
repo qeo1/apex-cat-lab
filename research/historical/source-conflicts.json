@@ -1,0 +1,85 @@
+{
+  "conflicts": [
+    {
+      "id": "CONFLICT-2IIM-GS-2024-SET-ORDER",
+      "kind": "set_locator",
+      "year": 2024,
+      "slot": 1,
+      "section": "DILR",
+      "sources": [
+        "2IIM-PDF-ARCHIVE",
+        "GS24-S1"
+      ],
+      "description": "The visible 2IIM 2024 Slot 1 DILR PDF begins with a DILR set numbered Set 7 about allocating stars, while GradeScale calls the tournament schedule Set 1. These are source-local set labels, not yet normalized; direct question correspondence remains to be mapped."
+    },
+    {
+      "id": "CONFLICT-2IIM-WRONG-FOOTER-2024-VARC",
+      "kind": "document-integrity",
+      "year": 2024,
+      "slot": 1,
+      "section": "VARC",
+      "sources": [
+        "2IIM-PDF-ARCHIVE"
+      ],
+      "description": "The sampled CAT 2024 Slot 1 VARC PDF page header identifies CAT 2024, but the bottom footer labels the displayed question as an Original CAT 2021 Question Paper. Treat as a possible reused/incorrect footer and inspect the full file before asserting paper authenticity/completeness."
+    },
+    {
+      "id": "CONFLICT-2IIM-AGLASEM-SLOT-COVERAGE",
+      "kind": "coverage",
+      "sources": [
+        "2IIM-ARCHIVE"
+      ],
+      "description": "Existing research records AglaSem's index as listing fewer CAT 2020 and 2022 slots than 2IIM. The slot model is a secondary archive candidate model, not a reconciled official census."
+    },
+    {
+      "id": "CONFLICT-2025-LOCATORS",
+      "kind": "question_locator",
+      "year": 2025,
+      "sources": [
+        "GS25-S1",
+        "GS25-S3"
+      ],
+      "description": "Existing CAT 2025 source records retain cross-provider question-number disagreements, including QA numbering; preserve source-local locators in legacy_id rather than force a canonical official number."
+    },
+    {
+      "id": "CONFLICT-2025-EXPLANATION",
+      "kind": "published-solution-error",
+      "year": 2025,
+      "sources": [
+        "GS25-S1",
+        "GS25-S2"
+      ],
+      "description": "Existing audit records a Slot 1 QA explanation calling 628 the minimum where 268 is smaller and valid; the final factor-count answer coincides. It also records a reversed inequality in the Slot 2 DILR explanation; the answer is supported after correcting the relation. These are source-solution defects, not proven answer-key disagreements."
+    },
+    {
+      "id": "CONFLICT-2025-66-68",
+      "kind": "reported-question-count",
+      "year": 2025,
+      "sources": [
+        "PYQ-04",
+        "PYQ-07"
+      ],
+      "description": "The Indian Express CAT 2025 analysis lead says 66 total questions while its sectional table and IMS analysis say 68 (24/22/22). No official response sheet has resolved this reporting discrepancy."
+    },
+    {
+      "id": "CONFLICT-LEGACY-PDF-URLS",
+      "kind": "retrieval-failure",
+      "sources": [
+        "CATKING-1991",
+        "CATKING-1993",
+        "CATKING-2000"
+      ],
+      "description": "The three explored CETKing/CATKing direct PDF URLs returned HTML pages (including 404 pages) rather than PDF bytes. They remain search-result leads only; TheCATExam provides a separate accessible CAT 1991 page."
+    },
+    {
+      "id": "CONFLICT-1991-Q1-EDITORIAL",
+      "kind": "item-ambiguity-lead",
+      "year": 1991,
+      "sources": [
+        "CAT-HIST-1991"
+      ],
+      "description": "The first VARC-labelled sentence-correction item appears to offer both a plural predicative complement and a singular complement after a singular subject. This may be conventional grammar nuance or a genuine multiple-answer ambiguity; no answer key or editorial resolution was inspected, so it is not approved as a solved item."
+    }
+  ]
+}
+

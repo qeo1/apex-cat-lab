@@ -1,0 +1,196 @@
+{
+  "snapshot": "2026-10-31",
+  "scope": "Pre-slot-era annual archive entries; source listings do not establish official completeness. Null slot means the archive presents one annual paper; no exam slot is inferred.",
+  "records": [
+    {
+      "year": 1991,
+      "slot": null,
+      "source_ids": [
+        "CAT-HIST-INDEX",
+        "CAT-HIST-1991"
+      ],
+      "state": "question_transcription_opened_partial_audit_pending",
+      "note": "TheCATExam claims 180 questions across three archive-labelled sections; Q1 and its options were opened, but answer/key and whole-paper completeness are unchecked."
+    },
+    {
+      "year": 1992,
+      "slot": null,
+      "source_ids": [
+        "CAT-HIST-INDEX"
+      ],
+      "state": "index_lead_only",
+      "note": "TheCATExam year index advertises an annual paper; the document and question count have not been audited. No slot is inferred."
+    },
+    {
+      "year": 1993,
+      "slot": null,
+      "source_ids": [
+        "CAT-HIST-INDEX"
+      ],
+      "state": "question_page_located_not_individually_examined",
+      "note": "TheCATExam page title identifies a full paper with solutions; line-level retrieval timed out, so no question is counted as examined. Separate CATKing PDF URLs returned HTML 404 rather than a PDF."
+    },
+    {
+      "year": 1994,
+      "slot": null,
+      "source_ids": [
+        "CAT-HIST-INDEX"
+      ],
+      "state": "index_lead_only",
+      "note": "TheCATExam year index advertises an annual paper; the document and question count have not been audited. No slot is inferred."
+    },
+    {
+      "year": 1995,
+      "slot": null,
+      "source_ids": [
+        "CAT-HIST-INDEX"
+      ],
+      "state": "index_lead_only",
+      "note": "TheCATExam year index advertises an annual paper; the document and question count have not been audited. No slot is inferred."
+    },
+    {
+      "year": 1996,
+      "slot": null,
+      "source_ids": [
+        "CAT-HIST-INDEX"
+      ],
+      "state": "index_lead_only",
+      "note": "TheCATExam year index advertises an annual paper; the document and question count have not been audited. No slot is inferred."
+    },
+    {
+      "year": 1997,
+      "slot": null,
+      "source_ids": [
+        "CAT-HIST-INDEX"
+      ],
+      "state": "index_lead_only",
+      "note": "TheCATExam year index advertises an annual paper; the document and question count have not been audited. No slot is inferred."
+    },
+    {
+      "year": 1998,
+      "slot": null,
+      "source_ids": [
+        "CAT-HIST-INDEX"
+      ],
+      "state": "index_lead_only",
+      "note": "TheCATExam year index advertises an annual paper; the document and question count have not been audited. No slot is inferred."
+    },
+    {
+      "year": 1999,
+      "slot": null,
+      "source_ids": [
+        "CAT-HIST-INDEX"
+      ],
+      "state": "index_lead_only",
+      "note": "TheCATExam year index advertises an annual paper; the document and question count have not been audited. No slot is inferred."
+    },
+    {
+      "year": 2000,
+      "slot": null,
+      "source_ids": [
+        "CAT-HIST-INDEX"
+      ],
+      "state": "question_page_located_not_individually_examined",
+      "note": "TheCATExam page title identifies a full paper with solutions; line-level retrieval timed out, so no question is counted as examined. Separate CATKing PDF URLs returned HTML 404 rather than a PDF."
+    },
+    {
+      "year": 2001,
+      "slot": null,
+      "source_ids": [
+        "CAT-HIST-INDEX"
+      ],
+      "state": "index_lead_only",
+      "note": "TheCATExam year index advertises an annual paper; the document and question count have not been audited. No slot is inferred."
+    },
+    {
+      "year": 2002,
+      "slot": null,
+      "source_ids": [
+        "CAT-HIST-INDEX"
+      ],
+      "state": "index_lead_only",
+      "note": "TheCATExam year index advertises an annual paper; the document and question count have not been audited. No slot is inferred."
+    },
+    {
+      "year": 2003,
+      "slot": null,
+      "source_ids": [
+        "CAT-HIST-INDEX"
+      ],
+      "state": "index_lead_only",
+      "note": "The index lists two entries (a paper and retake); both need separate event identity and authenticity review."
+    },
+    {
+      "year": 2004,
+      "slot": null,
+      "source_ids": [
+        "CAT-HIST-INDEX"
+      ],
+      "state": "index_lead_only",
+      "note": "TheCATExam year index advertises an annual paper; the document and question count have not been audited. No slot is inferred."
+    },
+    {
+      "year": 2005,
+      "slot": null,
+      "source_ids": [
+        "CAT-HIST-INDEX"
+      ],
+      "state": "index_lead_only",
+      "note": "TheCATExam year index advertises an annual paper; the document and question count have not been audited. No slot is inferred."
+    },
+    {
+      "year": 2006,
+      "slot": null,
+      "source_ids": [
+        "CAT-HIST-INDEX"
+      ],
+      "state": "index_lead_only",
+      "note": "TheCATExam year index advertises an annual paper; the document and question count have not been audited. No slot is inferred."
+    },
+    {
+      "year": 2007,
+      "slot": null,
+      "source_ids": [
+        "CAT-HIST-INDEX"
+      ],
+      "state": "index_lead_only",
+      "note": "TheCATExam year index advertises an annual paper; the document and question count have not been audited. No slot is inferred."
+    },
+    {
+      "year": 2008,
+      "slot": null,
+      "source_ids": [
+        "CAT-HIST-INDEX"
+      ],
+      "state": "index_lead_only",
+      "note": "TheCATExam year index advertises an annual paper; the document and question count have not been audited. No slot is inferred."
+    },
+    {
+      "year": 2016,
+      "slot": null,
+      "source_ids": [
+        "CAT-HIST-INDEX"
+      ],
+      "state": "index_lead_only",
+      "note": "TheCATExam year index advertises an annual paper; the document and question count have not been audited. No slot is inferred."
+    },
+    {
+      "year_range": "2009-2015",
+      "source_ids": [
+        "CAT-HIST-INDEX"
+      ],
+      "state": "unresolved_archive_gap",
+      "note": "No year entries for this range appear in the opened TheCATExam index. Other sources remain to be searched; absence from this index does not prove unavailability."
+    },
+    {
+      "year": 1990,
+      "slot": null,
+      "source_ids": [
+        "CAT-OLD-PAPERS"
+      ],
+      "state": "index_lead_only",
+      "note": "PreviousYearPapers lists CAT 1990; no paper downloaded or examined."
+    }
+  ]
+}
+

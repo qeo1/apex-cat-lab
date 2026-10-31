@@ -1,34 +1,42 @@
-# CAT PYQ analytics — preliminary, index and one-slot evidence
+# CAT PYQ structural analytics — evidence-limited seed
 
-Date: 2026-10-31 (expanded question-level sample)
+Date: 2026-10-31. This note describes inspected questions only. The sample is purposive, small and non-random; it is not a topic-frequency estimate, prediction, psychometric calibration or representative difficulty distribution.
 
-## Observations
+## New cross-year analysis
 
-The public 2IIM archive indexes VARC, DILR and Quant by slot for CAT 2017–2025. Its index suggests 24 exam slots, but it has not been audited against official response sheets. AglaSem's index omits some slots for 2020 and 2022, so archive coverage differs. No historical frequency table is calculated from index headings alone.
+| Examination evidence | Observed reasoning architecture | Why it matters | Verification boundary |
+|---|---|---|---|
+| CAT 2017 S1 QA Q1 | A ratio is stated now and changes to another ratio after a common time increment; normalize one age and solve one linear equation | Converts a verbal time relation to a compact equation without needing actual ages | Independently solved from the scanned question; 2IIM's answer control not checked |
+| CAT 2023 S1 QA Q1 | Prime valuations impose componentwise lower bounds in two successive divisibility directions | The first minimum changes the exponent target for the second minimum | Independent exponent comparison yields 15; source is Grade C |
+| CAT 2023 S1 DILR Set 1 | Spatial adjacency and occupancy interact with local neighbor counts and an extremal/threshold price; shared deductions drive five dependent questions | Representation must preserve block boundaries and road edges; cases must be carried rather than prematurely completed | Exhausted 1,572,864 candidates with all possible Block XX parking assignments allowed; two occupancy patterns and 64 parking-labelled assignments remain, with the same five answers |
+| CAT 2023 S1 VARC P1 Q1 | Reject a statement by controlling geographic scope and regional category | A plausible global framing is invalid when the passage describes South-South links only | Visible passage supports the check; source passage contains ellipses |
+| CAT 2024 S1 QA Q1 | Count onto functions by inclusion–exclusion over missing codomain values | Overlapping exclusions require adding back functions omitting two values | Direct arithmetic confirms 540; Grade C key agrees |
+| CAT 2024 S1 DILR Set 1 | Partition six teams, infer pair multiplicities, then construct perfect matchings by round under duplicated-round and anchored fixtures | Pair frequency and round scheduling are coupled; label symmetry can look like distinct solutions | Finite enumeration returns two solutions related only by group labels; all five answers invariant |
+| CAT 2024 S1 VARC P1 Q1 | Compare two systems by a shared consequence while rejecting a tempting attribute true of only one | Requires separating parallel mechanisms (both can inhibit creativity) from one-sided mechanisms (guild entry restrictions) | Relevant passage excerpts are visible; full passage is not reproduced |
+| CAT 2025 audited sample | Includes divisibility parity, exponent thresholds, constrained digit minimization, piecewise inequalities, workforce-rate updates, partial orders and scope/exception inference | Shows a mix of short mathematical pivots and shared-constraint reasoning; correction of source explanations matters | 27 actual questions individually audited; all sources Grade C and official key unchecked |
 
-For CAT 2025 Slot 1, an Indian Express report quoting T.I.M.E. and Career Launcher describes:
+## Seed corpus composition
 
-- Section counts as 24 VARC, 22 DILR, 22 QA, 40 minutes each. The same story's lead also says 66 total; this conflict is logged and unresolved from primary material.
-- VARC as four RC passages with four questions each, plus VA forms including para formation, summaries, sentence placement and odd-one-out. The report describes passage topics but their text is not reproduced here.
-- DILR as five sets (4, 4, 5, 4, 5 questions): spider/bar DI; seating; train-ticket reasoning; feet-tapping reasoning; employee ratings/distribution and rank arrangement. This topic list is attributed secondary reporting, not an independently inspected paper fingerprint.
-- QA as predominantly arithmetic/algebra, with three geometry, one numbers and one modern mathematics item according to T.I.M.E.'s analysis.
-- The report highlights set selection and time allocation as material, especially because some DILR sets were described as more time-consuming.
+The 2017–2025 slot corpus has 48 question-level records: 42 independently answer-checked and structurally audited, and six CAT 2023/2024 VARC questions retrieved with only a secondary published answer/explanation. One additional record is a CAT 1991 VARC-labelled question retrieved from an annual-paper webpage but left unsolved. For audited slot questions, the counts are 13 QA, 19 DILR and 10 VARC. Four shared DILR sets are complete at the set-prompt/question level; four represented VARC passage groups remain incomplete. No question has official answer-key corroboration.
 
-## Interpretations (not guaranteed predictions)
+The 2023 housing set's candidate-space enumeration and the 2024 tournament schedule enumeration are deterministic validation, not human response-time data. The six VARC records whose answers remain unchecked are not included in independent answer-validation counts.
 
-- Section labels hide distinct reasoning demands. For DILR, the set titles suggest a useful later coding scheme for representation (graph/table/order), constraints, entity count, case splitting and inter-question dependencies.
-- Topic frequency should not become a future-paper forecast. One slot and expert descriptions do not support that claim.
-- The article's internal 66/68 discrepancy prevents treating its total count as a source of truth without response-sheet verification.
+## Emerging taxonomy (provisional)
 
-## Evidence boundary
+- **Constraint representation:** grid plus graph adjacency; tournament pair-frequency matrix; route-flow equations; partial order.
+- **Constraint propagation:** a maximum/minimum statement fixes a branch or a group partition and then unlocks dependent items.
+- **State-space management:** enumerate only feasible cases; test answer invariants over remaining states.
+- **Algebraic compression:** normalize a ratio; compare prime exponents; use inclusion–exclusion rather than listing mappings.
+- **Scope and evidence control:** regional scope, comparison class, qualifier, and distinction between evidence and a question left open by the author.
+- **Source-aware reasoning:** preserve source-local numbering and explanation defects rather than silently harmonizing them.
 
-These are slot-level secondary observations only. No claim is made that all years, slots, questions, answer keys, difficulty ratings, TITA counts, VARC distractors or solve times have been analysed. No percentile or difficulty calibration is derived from this small evidence set.
+These labels are candidate tools for annotation. The corpus is too small and too uneven to assert that they characterize CAT globally.
 
-## Question-level sample now examined
+## Difficulty state
 
-The audit database contains 27 CAT 2025 question records: 10 QA items across all slots, all 5 questions in Slot 1 DILR Set 5, all 4 questions in Slot 2 DILR Set 1, and 4 questions each from the first VARC passage in Slots 2 and 3. These counts are based on question content actually opened and independently checked, not archive headings. All are Grade C public reproductions, not official-key verified.
+The historical records remain `unrated` in the machine-readable database. No candidate-performance or response-time data was available, and no complete difficulty comparison across years was performed. The old CAT 2025 analyses are retained as secondary commentary and do not calibrate this broader corpus. Difficulty should be assigned item by item after further paper coverage and independent review.
 
-Two source corrections matter for future content QA. GradeScale's Slot 1 QA minimization explanation names 628 despite 268 being smaller and valid. Its Slot 2 DILR Set 1 explanation reverses the relation implied by a ping on H4 (a ping means ball diameter is no greater than hoop diameter); the four published answers still follow from the corrected partial order. These are explanation errors, not proven official-key discrepancies.
+## Source and coverage limits
 
-The 27/204 coverage is incomplete and non-random. It is not suitable for topic frequency claims or predictions. Several DILR data displays are image-based and VARC reproductions use ellipses, so inaccessible content is explicitly left unaudited.
+The 63 section PDFs downloaded for 2017–2024 are Grade C reproductions. They have page counts, hashes, sampled question-page rendering and source-local controls. They are not officially sourced response sheets; a wrong year footer is present in one sampled CAT 2024 VARC file, and source set labels differ for CAT 2024 DILR. Complete paper/page/item coverage review is still pending. Legacy CAT paper links discovered before 2017 are not counted as retrieved material. No frequency chart is calculated from a source index or topic list.
 
