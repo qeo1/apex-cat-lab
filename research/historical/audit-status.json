@@ -24,7 +24,7 @@
   "question_level_audited": 42,
   "independently_answer_verified": 42,
   "source_key_seen_only": 6,
-  "retrieved_unsolved": 7,
+  "retrieved_unsolved": 1,
   "officially_key_corroborated": 0,
   "complete_shared_dilr_sets": 4,
   "complete_varc_passages": 0,
@@ -35,7 +35,7 @@
       "structurally_audited": 10,
       "independently_answer_verified": 10,
       "secondary_key_seen_only": 6,
-      "retrieved_unsolved": 7
+      "retrieved_unsolved": 1
     },
     "DILR": {
       "question_records": 19,
