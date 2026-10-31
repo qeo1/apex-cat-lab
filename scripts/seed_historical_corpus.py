@@ -333,7 +333,7 @@ def build() -> None:
             "structurally_audited": sum(q["retrieval_state"] == "question_audited" for q in subset),
             "independently_answer_verified": sum(q["answer_state"] == "independently_verified" for q in subset),
             "secondary_key_seen_only": sum(q["answer_state"] == "source_key_seen" for q in subset),
-            "retrieved_unsolved": sum(q["retrieval_state"] == "question_retrieved" for q in subset),
+            "retrieved_unsolved": sum(q["answer_state"] == "unchecked" for q in subset),
         }
     (HIST / "audit-status.json").write_text(json.dumps({
         "snapshot": TODAY,
@@ -349,7 +349,7 @@ def build() -> None:
         "question_level_audited": audited,
         "independently_answer_verified": verified,
         "source_key_seen_only": sum(q["answer_state"] == "source_key_seen" for q in question_rows),
-        "retrieved_unsolved": sum(q["retrieval_state"] == "question_retrieved" for q in question_rows),
+        "retrieved_unsolved": sum(q["answer_state"] == "unchecked" for q in question_rows),
         "officially_key_corroborated": sum(q["official_key_state"] == "corroborated" for q in question_rows),
         "complete_shared_dilr_sets": sum(s.get("reconstruction_state") == "complete" for s in sets),
         "complete_varc_passages": sum(not ("partial" in p["completeness"] or "ellipsis" in p["completeness"]) for p in passages),
