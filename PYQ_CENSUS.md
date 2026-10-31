@@ -18,7 +18,8 @@ The public 2IIM archive advertises slot-wise CAT material across all three secti
 - AglaSem's open PDF index lists fewer slots for 2020 and 2022 than 2IIM's index. Preserve this discrepancy; do not silently claim complete slot availability from a single archive.
 - CAT 2026 bulletin and official notices are discoverable through linked official pages, but the CAT portal and bulletin PDF returned 403 to automated retrieval. The direct primary document must be reviewed later.
 - Public transcriptions may contain editorial answer keys, corrected wording, or memory-derived content. Each question needs an official-response-sheet/answer-key link and a conflict note before promotion to authenticity B.
-- No source has yet been checked question by question. **Actual question-level accessible and audited count: 0.**
+- **Actual question-level audited count: 27 CAT 2025 questions** (10 QA, 9 DILR, 8 VARC). They comprise 10 individual QA records, all questions in Slot 1 DILR Set 5 (5 items), all questions in Slot 2 DILR Set 1 (4 items), and Q1–Q4 of VARC Passage 1 in Slots 2 and 3 (8 items). The DILR charts and some VARC passages in archive HTML are image/ellipsis dependent; no unsupported material is reconstructed. All sources remain grade C and official keys remain unchecked.
+- CAT 2025 index transcriptions report 68 questions per slot (24/22/22), or 204 archive entries across three slots. That is the archive denominator, not audited coverage: **27/204 question items have been independently examined so far**. Do not call the paper audit complete.
 - No copyrighted paper text has been copied into the application.
 
 ## Next census pass
