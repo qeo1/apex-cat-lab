@@ -10,8 +10,10 @@ if (!output.startsWith(`${root}${process.platform === 'win32' ? '\\' : '/'}`)) {
 
 await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
-for (const file of ['index.html', 'app.js', 'styles.css', 'sw.js', 'manifest.webmanifest', 'icon.svg']) {
+for (const file of ['index.html', 'app.js', 'pilot-app.js', 'styles.css', 'sw.js', 'manifest.webmanifest', 'icon.svg']) {
   await cp(join(root, file), join(output, file));
 }
 await cp(join(root, 'vendor'), join(output, 'vendor'), { recursive: true });
+await cp(join(root, 'research', 'pilot', 'pilot.json'), join(output, 'pilot.json'));
 console.log(`Prepared static Pages bundle at ${output}`);
+
