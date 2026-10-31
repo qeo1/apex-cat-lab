@@ -16,7 +16,7 @@ Serve this directory over HTTP (for example, `python -m http.server 8000`) and o
 
 ## Research status
 
-The source ledger contains 15 CAT and official-source records. Three sampled CAT 2025 QA items have question-level structural fingerprints and independently derived answers across Slots 1–3; all are secondary-source grade C, not official-key verified. The three app questions remain original demonstration examples, not CAT PYQs.
+The corpus-first historical inventory is in [`research/historical/`](research/historical/). It currently contains 72 candidate section records for 2017–2025, hashes for 63 acquired section PDFs from 2017–2024, and 49 question-level records including one unsolved CAT 1991 item. Of those questions, 42 have structural audits and independent answer checks; six have only a secondary answer visible. None is officially key-corroborated, and no full slot paper has passed a completeness audit. The three app questions remain original demonstration examples, not CAT PYQs.
 
 See [BUILD_STATUS.md](BUILD_STATUS.md), [SOURCE_LEDGER.md](SOURCE_LEDGER.md), [PYQ_CENSUS.md](PYQ_CENSUS.md), and [DEPLOYMENT.md](DEPLOYMENT.md) for the current implementation and evidence boundaries.
 
@@ -26,11 +26,11 @@ See [BUILD_STATUS.md](BUILD_STATUS.md), [SOURCE_LEDGER.md](SOURCE_LEDGER.md), [P
 - [Global research field map](research/global/field-map.md).
 - [Research-to-question validation pipeline](research/pipeline/README.md).
 
-The pilot count remains zero until each original question includes its research sources, CAT benchmark comparison, independent answer verification and adversarial checks.
+The separate experimental pilot has 25 original questions. It is not evidence of historical corpus coverage or success of the question-generation system.
 
 
 
 ## Research pilot and audit
 
-The labelled original 25-question pilot is in the app under Research Pilot. Full question provenance and solutions: [PILOT_RESEARCH_REPORT.md](PILOT_RESEARCH_REPORT.md). Validation and diversity reviews: [QUESTION_VALIDATION_REPORT.md](QUESTION_VALIDATION_REPORT.md), [CONTENT_DIVERSITY_AUDIT.md](CONTENT_DIVERSITY_AUDIT.md). CAT 2025 audited question counts remain a partial 27/204: see [PYQ_CENSUS.md](PYQ_CENSUS.md) and [PYQ_ANALYTICS.md](PYQ_ANALYTICS.md).
+The labelled original 25-question pilot is in the app under Research Pilot and remains separate. CAT 2025 still has only 27/204 questions individually audited. The new historical corpus adds 15 independently checked questions from CAT 2017, 2023 and 2024 Slot 1, six CAT 2023/2024 VARC questions with source keys not yet independently checked, and one unsolved CAT 1991 item. See [PYQ_CENSUS.md](PYQ_CENSUS.md), [PYQ_ANALYTICS.md](PYQ_ANALYTICS.md), and [research/historical/README.md](research/historical/README.md). The corpus has not yet been integrated into the app.
 
