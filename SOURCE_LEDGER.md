@@ -2,6 +2,22 @@
 
 Research snapshot: 2026-10-31 (Asia/Kolkata)
 
+## Historical acquisition additions
+
+| ID | Source | Type / confidence | Use | Access and limitations |
+|---|---|---|---|---|
+| HIST-01 | [2IIM CAT paper PDF archive, 2017–2024](https://online.2iim.com/CAT-question-paper-pdf/) ([direct ZIP](https://online.2iim.com/CAT-question-paper-pdf/CAT%20PYQ%202017-24.zip)) | C — institutional secondary reproduction | Downloaded 63 section PDFs spanning the 21 candidate slots from 2017–2024. Filenames, page counts, sizes and SHA-256 hashes are in `research/historical/acquisition-manifest.json`. | Rendered samples contain actual question pages, answer controls/solution links and images. Other files remain unchecked page by page; no full-page completeness or answer audit is complete. The local 105 MB extracted files are staged in ignored `work/`, not committed. One sampled 2024 VARC footer says CAT 2021 and is logged as a document conflict. |
+| HIST-02 | [CAT 2023 Slot 1 full question transcription, GradeScale](https://www.gradscale.in/pyqs/cat/2023/1/view/) | C — secondary transcription | Opened actual VARC Q1–Q4, DILR Set 1 Q1–Q5 and QA Q1; inspected the DILR diagram asset. | The page calls itself a full paper and reports 24/20/22, but VARC passage text has ellipses. No official key. Each source-local question/set locator remains attributable to GradeScale. |
+| HIST-03 | [CAT 2024 Slot 1 full question transcription, GradeScale](https://www.gradscale.in/pyqs/cat/2024/1/view/) | C — secondary transcription | Opened actual VARC Q1–Q4, DILR tournament Set 1 Q1–Q5 and QA Q1. | VARC passage text has ellipses. No official key. Set numbering differs from the 2IIM PDF's local set labels; no normalization is asserted. |
+| HIST-04 | [TheCATExam historical CAT archive index](https://www.thecatexam.com/pyp/cat) | C — secondary index | Lists annual papers 1991–2008 and CAT 2016, plus recent slot-wise material; CAT 2003 has two entries. | Index claims only. CAT 1991, 1993 and 2000 pages were located; only CAT 1991 Q1 was visible at item level, and it remains unsolved. |
+| HIST-05 | [PreviousYearPapers CAT archive](https://www.previousyearpapers.in/CAT/) | C — secondary index | Lists CAT 1990–2017 annual PDF links. | Only the index page was opened. Individual link responses were not checked as actual PDF contents. |
+| HIST-06 | [CATKing CAT 1993 solved paper](https://catking.in/wp-content/uploads/2020/09/CAT-1993-Question-Paper-with-Solution-1.pdf) | C — secondary reproduction lead | Identify a potentially retrievable 1993 paper. | Direct request returned an HTML 404 page rather than a PDF; TheCATExam has a separate 1993 page, but no item review was completed. |
+| HIST-07 | [CATKing CAT 2000 solved paper](https://catking.in/wp-content/uploads/2020/09/CAT-2000-Question-Paper-with-Solution-1.pdf) | C — secondary reproduction lead | Identify a potentially retrievable 2000 paper. | Direct request returned an HTML 404 page rather than a PDF; TheCATExam has a separate 2000 page, but no item review was completed. |
+| HIST-08 | [2IIM historical archive access statement](https://online.2iim.com/2iim-marathon/) | C — provider access statement | 2IIM says CAT 2000–2008 papers are available inside its online course. | No course access or restricted material was used. These years remain a lead, not retrieved papers. |
+| HIST-09 | [TheCATExam CAT 1991 question page](https://www.thecatexam.com/pyp/cat/cat-1991) | C — secondary historical transcription | Opened CAT 1991 page, which claims 180 questions in three archive-labelled sections; Q1 and its options were visible. | One item is recorded as retrieved but unsolved. No response sheet, complete-paper audit or normalization to historical section names was performed. |
+
+All historical question-level records use Grade C reproduction sources. The corpus contains no official CAT response-sheet or official-key corroboration. See `research/historical/source-registry.json` and `source-conflicts.json` for the machine-readable provenance and conflicts.
+
 | ID | Source | Type / confidence | Use | Access and limitations |
 |---|---|---|---|---|
 | CAT-26-01 | [CAT 2026 official portal](https://iimcat.ac.in/) | A — primary authority | Official notices, bulletin, exam schedule | Portal root and linked bulletin PDF returned 403 to automated retrieval. The linked PDF URL was found on an official notices index; bulletin text was not directly inspected. |
