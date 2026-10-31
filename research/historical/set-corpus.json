@@ -1,0 +1,92 @@
+{
+  "sets": [
+    {
+      "id": "CAT-2023-S1-DILR-SET1",
+      "paper_id": "CAT-2023-S1-DILR",
+      "question_ids": [
+        "CAT-2023-S1-DILR-Q1",
+        "CAT-2023-S1-DILR-Q2",
+        "CAT-2023-S1-DILR-Q3",
+        "CAT-2023-S1-DILR-Q4",
+        "CAT-2023-S1-DILR-Q5"
+      ],
+      "source_ids": [
+        "GS23-S1",
+        "2IIM-PDF-ARCHIVE"
+      ],
+      "source_urls": [
+        "https://www.gradscale.in/pyqs/cat/2023/1/view/",
+        "https://online.2iim.com/CAT-question-paper-pdf/"
+      ],
+      "reconstruction_state": "complete",
+      "completeness": "full shared prompt, essential diagram asset and all five question prompts opened",
+      "independent_set_enumeration": "1,572,864 occupancy/parking candidates enumerated allowing arbitrary Block XX parking; two occupancy patterns and 64 feasible parking-labelled assignments; all five answers invariant",
+      "fingerprint": "Grid occupancy with inter-block roads, local neighbor counts, prices and existential/extremal conditions; branches propagate into dependent questions."
+    },
+    {
+      "id": "CAT-2024-S1-DILR-SET1",
+      "paper_id": "CAT-2024-S1-DILR",
+      "question_ids": [
+        "CAT-2024-S1-DILR-Q1",
+        "CAT-2024-S1-DILR-Q2",
+        "CAT-2024-S1-DILR-Q3",
+        "CAT-2024-S1-DILR-Q4",
+        "CAT-2024-S1-DILR-Q5"
+      ],
+      "source_ids": [
+        "GS24-S1",
+        "2IIM-PDF-ARCHIVE"
+      ],
+      "source_urls": [
+        "https://www.gradscale.in/pyqs/cat/2024/1/view/",
+        "https://online.2iim.com/CAT-question-paper-pdf/"
+      ],
+      "reconstruction_state": "complete",
+      "completeness": "shared tournament prompt, conditions, fixture reconstruction and all five question prompts opened",
+      "independent_set_enumeration": "finite schedule search found two solutions differing only by exchange of group labels; schedule and all five answers invariant",
+      "fingerprint": "Partition six teams into equal groups; derive cross/within group match multiplicity; reconstruct round-wise perfect matchings under duplicated-round and anchored-pair constraints."
+    },
+    {
+      "id": "CAT-2025-S1-DILR-SET5",
+      "paper_id": "CAT-2025-S1-DILR",
+      "question_ids": [
+        "CAT-2025-S1-DILR-Q18",
+        "CAT-2025-S1-DILR-Q19",
+        "CAT-2025-S1-DILR-Q20",
+        "CAT-2025-S1-DILR-Q21",
+        "CAT-2025-S1-DILR-Q22"
+      ],
+      "source_ids": [
+        "GS25-S1"
+      ],
+      "source_urls": [
+        "https://www.gradscale.in/pyqs/cat/2025/1/view/"
+      ],
+      "reconstruction_state": "complete",
+      "completeness": "complete shared set among existing audited records",
+      "independent_set_enumeration": "all five recorded items independently checked in existing audit",
+      "fingerprint": "Train route flow and occupancy equations with capacity, divisibility, fractional boarding and downstream aggregation."
+    },
+    {
+      "id": "CAT-2025-S2-DILR-SET1",
+      "paper_id": "CAT-2025-S2-DILR",
+      "question_ids": [
+        "CAT-2025-S2-DILR-Q1",
+        "CAT-2025-S2-DILR-Q2",
+        "CAT-2025-S2-DILR-Q3",
+        "CAT-2025-S2-DILR-Q4"
+      ],
+      "source_ids": [
+        "GS25-S2"
+      ],
+      "source_urls": [
+        "https://www.gradscale.in/pyqs/cat/2025/2/view/"
+      ],
+      "reconstruction_state": "complete",
+      "completeness": "complete shared set among existing audited records",
+      "independent_set_enumeration": "all four recorded items independently checked in existing audit",
+      "fingerprint": "Ping outcomes induce a partial order across ball/hoop thresholds; count forced versus possible comparisons and incidences."
+    }
+  ]
+}
+
