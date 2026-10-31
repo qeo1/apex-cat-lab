@@ -1,0 +1,159 @@
+{
+  "snapshot": "2026-10-31",
+  "sources": [
+    {
+      "id": "2IIM-ARCHIVE",
+      "url": "https://online.2iim.com/CAT-question-paper/",
+      "source_class": "institutional_secondary_archive",
+      "evidence_grade": "C",
+      "independence_group": "2iim",
+      "claims": "CAT 2017-2025 slot and section question collections; 2IIM describes them as actual questions with solutions.",
+      "limitations": "Provider reproduction, not official response-sheet artifacts; individual paper completeness and answer keys are not officially corroborated."
+    },
+    {
+      "id": "2IIM-PDF-ARCHIVE",
+      "url": "https://online.2iim.com/CAT-question-paper-pdf/",
+      "source_class": "institutional_secondary_pdf_archive",
+      "evidence_grade": "C",
+      "independence_group": "2iim",
+      "claims": "Download archive advertised as CAT 2017-2024 question papers with answers.",
+      "limitations": "Downloaded files have promotional covers/navigation and scanned question pages; all question/page mappings and image-dependent details still require item-level inspection."
+    },
+    {
+      "id": "2IIM-PDF-ZIP",
+      "url": "https://online.2iim.com/CAT-question-paper-pdf/CAT%20PYQ%202017-24.zip",
+      "source_class": "institutional_secondary_pdf_archive_artifact",
+      "evidence_grade": "C",
+      "independence_group": "2iim",
+      "claims": "Direct downloaded ZIP artifact containing 63 CAT 2017-2024 year/slot/section PDFs; the per-file hash and metadata are recorded in acquisition-manifest.json.",
+      "limitations": "Secondary reproductions, not official response sheets. File-level page and image completeness still pending."
+    },
+    {
+      "id": "GS23-S1",
+      "url": "https://www.gradscale.in/pyqs/cat/2023/1/view/",
+      "source_class": "secondary_question_transcription",
+      "evidence_grade": "C",
+      "independence_group": "gradscale",
+      "claims": "CAT 2023 Slot 1 displayed as 24 VARC, 20 DILR and 22 QA; actual question text, diagrams and answer explanations opened.",
+      "limitations": "VARC passage transcriptions include ellipses; no official response sheet. Exam set/question locators need cross-source normalization."
+    },
+    {
+      "id": "GS24-S1",
+      "url": "https://www.gradscale.in/pyqs/cat/2024/1/view/",
+      "source_class": "secondary_question_transcription",
+      "evidence_grade": "C",
+      "independence_group": "gradscale",
+      "claims": "CAT 2024 Slot 1 displayed as 24 VARC, 22 DILR and 22 QA; actual question text, set constraints, answer and solution displayed.",
+      "limitations": "VARC passage transcriptions include ellipses; no official response sheet. Set/order locators differ from the 2IIM set labels and require item-level normalization."
+    },
+    {
+      "id": "GS25-S1",
+      "url": "https://www.gradscale.in/pyqs/cat/2025/1/view/",
+      "source_class": "secondary_question_transcription",
+      "evidence_grade": "C",
+      "independence_group": "gradscale",
+      "claims": "CAT 2025 Slot 1 question-level source for existing audited records.",
+      "limitations": "Some passage text/DI material is abbreviated or image based; no official response sheet."
+    },
+    {
+      "id": "GS25-S2",
+      "url": "https://www.gradscale.in/pyqs/cat/2025/2/view/",
+      "source_class": "secondary_question_transcription",
+      "evidence_grade": "C",
+      "independence_group": "gradscale",
+      "claims": "CAT 2025 Slot 2 question-level source for existing audited records.",
+      "limitations": "Some passage text/DI material is abbreviated or image based; no official response sheet."
+    },
+    {
+      "id": "GS25-S3",
+      "url": "https://www.gradscale.in/pyqs/cat/2025/3/view/",
+      "source_class": "secondary_question_transcription",
+      "evidence_grade": "C",
+      "independence_group": "gradscale",
+      "claims": "CAT 2025 Slot 3 question-level source for existing audited records.",
+      "limitations": "Some passage text/DI material is abbreviated or image based; no official response sheet."
+    },
+    {
+      "id": "CAT-HIST-INDEX",
+      "url": "https://www.thecatexam.com/pyp/cat",
+      "source_class": "secondary_historical_archive_index",
+      "evidence_grade": "C",
+      "independence_group": "thecatexam",
+      "claims": "Opened index lists recent slot papers, CAT 1991-2008 and CAT 2016; identifies two 2003 entries (paper and retake).",
+      "limitations": "Index-level discovery only; each historical item and its authenticity/retrieval state must be checked."
+    },
+    {
+      "id": "CAT-HIST-1991",
+      "url": "https://www.thecatexam.com/pyp/cat/cat-1991",
+      "source_class": "secondary_historical_question_transcription",
+      "evidence_grade": "C",
+      "independence_group": "thecatexam",
+      "claims": "Question page says it contains 180 CAT 1991 items in three sections; actual VARC-labelled Q1 and subsequent item prompts were visible in the opened page.",
+      "limitations": "No response-sheet source; archive's retroactive section labels are not normalized to original section names; controls/answers not independently checked; complete page audit not performed."
+    },
+    {
+      "id": "PYQ-04",
+      "url": "https://indianexpress.com/article/education/cat-2025-exam-analysis-slot-wise-difficulty-level-section-varc-dilr-answers-expert-students-review-iim-kozhikode-10394020/lite/",
+      "source_class": "secondary_news_analysis",
+      "evidence_grade": "C",
+      "independence_group": "indian-express",
+      "claims": "CAT 2025 post-exam analysis quoting coaching sources; has an internal total-count discrepancy (66 in lead, 68 from 24/22/22 table).",
+      "limitations": "Secondary account, not a question paper or official key."
+    },
+    {
+      "id": "PYQ-07",
+      "url": "https://www.imsindia.com/cat-2025-slot-1-analysis/",
+      "source_class": "secondary_coaching_analysis",
+      "evidence_grade": "C",
+      "independence_group": "ims",
+      "claims": "IMS reports 68 CAT 2025 Slot 1 questions (24/22/22).",
+      "limitations": "Secondary analysis; existing ledger notes internal topic-count prose/table discrepancy; not an official response sheet."
+    },
+    {
+      "id": "CAT-OLD-PAPERS",
+      "url": "https://www.previousyearpapers.in/CAT/",
+      "source_class": "secondary_historical_archive_index",
+      "evidence_grade": "C",
+      "independence_group": "previousyearpapers",
+      "claims": "Search result advertises CAT 1991 and CAT 1992 paper files.",
+      "limitations": "Index was not opened/downloaded in this pass; individual files and provenance unverified."
+    },
+    {
+      "id": "CATKING-1993",
+      "url": "https://catking.in/wp-content/uploads/2020/09/CAT-1993-Question-Paper-with-Solution-1.pdf",
+      "source_class": "secondary_historical_pdf_reproduction",
+      "evidence_grade": "C",
+      "independence_group": "catking",
+      "claims": "Search result identifies a CAT 1993 paper with solutions.",
+      "limitations": "PDF not downloaded or examined in this pass; key and exact completeness unverified."
+    },
+    {
+      "id": "CATKING-2000",
+      "url": "https://catking.in/wp-content/uploads/2020/09/CAT-2000-Question-Paper-with-Solution-1.pdf",
+      "source_class": "secondary_historical_pdf_reproduction",
+      "evidence_grade": "C",
+      "independence_group": "catking",
+      "claims": "Search result identifies a CAT 2000 paper with solutions.",
+      "limitations": "PDF not downloaded or examined in this pass; key and exact completeness unverified."
+    },
+    {
+      "id": "2IIM-2000-08-ACCESS",
+      "url": "https://online.2iim.com/2iim-marathon/",
+      "source_class": "provider_access_statement",
+      "evidence_grade": "C",
+      "independence_group": "2iim",
+      "claims": "2IIM says CAT 2000-2008 papers are available inside its online course.",
+      "limitations": "Authenticated course not accessed; no restricted material sought."
+    },
+    {
+      "id": "CATKING-1991",
+      "url": "https://cetking.com/wp-content/uploads/2016/09/CAT-1991-_Sol.pdf",
+      "source_class": "secondary_historical_pdf_reproduction",
+      "evidence_grade": "C",
+      "independence_group": "cetking",
+      "claims": "A CAT 1991 solved-paper URL was discovered in search during earlier source reconnaissance.",
+      "limitations": "Not downloaded or examined in this pass; authenticity, completeness and answer reliability unknown."
+    }
+  ]
+}
+
